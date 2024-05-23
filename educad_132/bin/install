@@ -1,0 +1,33 @@
+clear
+rm -f *.o educad *.t *.txt *.log
+
+echo "Compiling Placer ..."
+g++ -c -I ../part/ -I ../db -I ../placer -I /usr/lib/qt-3.3/include ../placer/*.cpp
+echo "OK"
+
+echo "Compiling Partitioner..."
+g++ -c -I ../db -I ../part ../part/*.cpp
+echo "OK"
+
+echo "Compiling Global Router ..."
+g++ -c -I ../db -I ../gr ../gr/*.cpp
+echo "OK"
+
+echo "Compiling Static Timing Analyzer ..."
+g++ -c -I ../db -I ../asta ../asta/*.cpp
+echo "OK"
+
+echo "Compiling GUI ..."
+/usr/lib/qt-3.3/bin/moc ../gui/gui.h -o ../gui/moc_GUI.cpp
+g++ -c -I ../db -I ../placer -I ../gr -I ../asta -I ../gui -I /usr/lib/qt-3.3/include ../gui/*.cpp
+echo "OK"
+
+echo "Compiling main ..."
+g++ -c -I ../db -I ../part -I ../placer -I ../gr/ -I ../asta -I ../gui -I /usr/lib/qt-3.3/include -I ../lef/ -I ../def/ ../main/*.cpp
+echo "OK"
+
+echo "Linking ..."
+g++ -I ../db -I ../part -I ../placer  -I ../gr/ -I ../lef/ -I ../def/ -I ../asta -L/usr/lib/qt-3.3/lib -L/usr/X11R6/lib -lqt-mt -lXext -lX11 -lm *.o ../lib/*.a -o educad
+echo "OK"
+
+

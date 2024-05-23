@@ -1,0 +1,1663 @@
+VERSION  5.4 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS  "[]" ;
+DESIGN s1423 ;
+UNITS DISTANCE MICRONS 2000 ;
+
+HISTORY CREATETIME 24 January 2006 21:02:31 ;
+HISTORY SAVETIME 24 January 2006 21:02:31 ;
+HISTORY DB CREATE by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY Design saved as LBRARY in directory  ;
+HISTORY DB LOAD by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY INPUT VERILOG FILENAME "../tech/GSCLib_3.0_stub.v ../design/s1423.v" LIB
+        "cds_vbin" REFLIB "cds_vbin" DESIGN "cds_vbin.s1423:hdl" ;
+
+
+PROPERTYDEFINITIONS
+
+DESIGN HSNAPGRID STRING "0 1320 1" ;
+DESIGN VSNAPGRID STRING "0 1320 1" ;
+ DESIGN  VERILOGDESIGNNAME  STRING 
+  "cds_vbin.s1423:hdl"  ;
+
+END PROPERTYDEFINITIONS
+DIEAREA ( 0 0 ) ( 0 0 ) ;
+
+
+COMPONENTS 607 ;
+- G70_reg DFFSRX1 ;
+- G69_reg DFFSRX1 ;
+- g2468 INVX2 ;
+- G68_reg DFFSRX1 ;
+- G67_reg DFFSRX1 ;
+- g2473 INVX1 ;
+- g2484 AND2X1 ;
+- g2493 NOR2X1 ;
+- G53_reg DFFSRX1 ;
+- G62_reg DFFSRX1 ;
+- G61_reg DFFSRX1 ;
+- G52_reg DFFSRX1 ;
+- g2506 INVX1 ;
+- G78_reg DFFSRX1 ;
+- G60_reg DFFSRX1 ;
+- G51_reg DFFSRX1 ;
+- g2507 AOI22X1 ;
+- g2516 AOI21X1 ;
+- g2503 AOI21X1 ;
+- g2514 NOR2X1 ;
+- G77_reg DFFSRX1 ;
+- g2504 INVX1 ;
+- g2513 NAND2X1 ;
+- g2525 NAND2X1 ;
+- g2524 NAND2X1 ;
+- G76_reg DFFSRX1 ;
+- g2521 INVX1 ;
+- G75_reg DFFSRX1 ;
+- G59_reg DFFSRX1 ;
+- G57_reg DFFSRX1 ;
+- G58_reg DFFSRX1 ;
+- g2554 AOI21X1 ;
+- g2548 NOR2X1 ;
+- g2549 NOR2X1 ;
+- g2553 AOI21X1 ;
+- G74_reg DFFSRX1 ;
+- g2557 NAND2X1 ;
+- g2556 OR2X1 ;
+- g2560 XOR2X1 ;
+- G83_reg DFFSRX1 ;
+- g2542 AOI21X1 ;
+- g2551 NAND2X1 ;
+- g2568 NAND2X1 ;
+- g2571 INVX1 ;
+- g2572 OR2X1 ;
+- G38_reg DFFSRX1 ;
+- G37_reg DFFSRX1 ;
+- g2563 INVX1 ;
+- g2570 AOI21X1 ;
+- G36_reg DFFSRX1 ;
+- g2574 NOR2X1 ;
+- g2576 NOR2X1 ;
+- g2589 NAND2X1 ;
+- g2590 NAND2X1 ;
+- G49_reg DFFSRX1 ;
+- G47_reg DFFSRX1 ;
+- G50_reg DFFSRX1 ;
+- G48_reg DFFSRX1 ;
+- G41_reg DFFSRX1 ;
+- g2577 NOR2X1 ;
+- g2593 AOI21X1 ;
+- G54_reg DFFSRX1 ;
+- G55_reg DFFSRX1 ;
+- G40_reg DFFSRX1 ;
+- G56_reg DFFSRX1 ;
+- g2602 AOI21X1 ;
+- g2603 AOI21X1 ;
+- g2604 AOI21X1 ;
+- g2605 AOI21X1 ;
+- g2583 NOR2X1 ;
+- g2588 NOR2X1 ;
+- g2597 NOR2X1 ;
+- g2613 NOR2X1 ;
+- g2614 AOI21X1 ;
+- g2611 NOR2X1 ;
+- G39_reg DFFSRX1 ;
+- g2628 NAND2X1 ;
+- G34_reg DFFSRX1 ;
+- g2592 NOR2X1 ;
+- g2612 AOI21X1 ;
+- g2617 OR2X1 ;
+- g2618 OR2X1 ;
+- g2619 OR2X1 ;
+- g2620 OR2X1 ;
+- g2623 NAND2X1 ;
+- g2624 NAND2X1 ;
+- g2625 NAND2X1 ;
+- g2626 NAND2X1 ;
+- g2627 NAND2X1 ;
+- g2629 XOR2X1 ;
+- g2631 INVX1 ;
+- g2610 NAND2X1 ;
+- G33_reg DFFSRX1 ;
+- g2615 AOI21X1 ;
+- g2630 NAND2X2 ;
+- g2632 AND2X1 ;
+- g2644 NOR2X1 ;
+- g2616 NOR2X1 ;
+- g2657 AOI21X1 ;
+- g2636 OR2X1 ;
+- g2641 NOR2X1 ;
+- g2656 AND2X1 ;
+- g2638 NAND2X1 ;
+- g2660 OR2X1 ;
+- G32_reg DFFSRX1 ;
+- g2643 AOI21X1 ;
+- g2661 NAND2X1 ;
+- g2664 NOR2X1 ;
+- g2667 INVX1 ;
+- G31_reg DFFSRX1 ;
+- g2671 NAND2X1 ;
+- g2672 AOI21X1 ;
+- G29_reg DFFSRX1 ;
+- G30_reg DFFSRX1 ;
+- g2663 NOR2X1 ;
+- g2666 NOR2X1 ;
+- g2674 OR2X1 ;
+- g2675 NOR2X1 ;
+- G28_reg DFFSRX1 ;
+- G27_reg DFFSRX1 ;
+- g2670 NOR2X1 ;
+- g2684 AOI21X1 ;
+- g2678 NOR2X1 ;
+- g2681 NOR2X1 ;
+- g2683 NAND2X1 ;
+- G26_reg DFFSRX1 ;
+- g2687 NOR2X1 ;
+- G25_reg DFFSRX1 ;
+- G24_reg DFFSRX1 ;
+- g2682 NOR2X1 ;
+- g2697 AOI21X1 ;
+- g2698 NOR2X1 ;
+- g2696 OAI33X1 ;
+- G93_reg DFFSRX1 ;
+- g2691 NAND2X1 ;
+- g2692 NOR2X1 ;
+- g2699 NOR2X1 ;
+- g2701 NAND2X1 ;
+- g2702 NOR2X1 ;
+- g2700 OAI33X1 ;
+- g2704 NAND2X1 ;
+- g2705 OR2X1 ;
+- g2706 NOR2X1 ;
+- g2707 XOR2X1 ;
+- g2708 AND2X1 ;
+- G46_reg DFFSRX1 ;
+- G63_reg DFFSRX1 ;
+- G45_reg DFFSRX1 ;
+- G95_reg DFFSRX1 ;
+- g2717 NOR2X1 ;
+- g2719 NOR2X1 ;
+- g2723 AOI21X1 ;
+- G44_reg DFFSRX1 ;
+- g2721 NOR2X1 ;
+- g2725 INVX1 ;
+- g2727 XOR2X1 ;
+- g2724 NAND3X1 ;
+- g2726 NAND4X1 ;
+- g2731 NAND2X1 ;
+- g2732 NOR2X1 ;
+- g2735 AOI21X1 ;
+- G43_reg DFFSRX1 ;
+- g2730 NAND2X1 ;
+- g2757 NAND3X1 ;
+- G42_reg DFFSRX1 ;
+- g2733 NAND3X1 ;
+- g2734 NAND3X1 ;
+- g2736 OR2X1 ;
+- g2738 NAND2X1 ;
+- g2740 AOI21X1 ;
+- G72_reg DFFSRX1 ;
+- g2737 NAND2X1 ;
+- g2743 INVX1 ;
+- G71_reg DFFSRX1 ;
+- G73_reg DFFSRX1 ;
+- g2781 INVX1 ;
+- g2744 MX2X1 ;
+- g2754 OR2X1 ;
+- g2755 NAND2X1 ;
+- g2756 OAI21X1 ;
+- g2773 MX2X1 ;
+- G81_reg DFFSRX1 ;
+- G85_reg DFFSRX1 ;
+- G79_reg DFFSRX1 ;
+- G82_reg DFFSRX1 ;
+- G84_reg DFFSRX1 ;
+- G80_reg DFFSRX1 ;
+- g2758 NAND4X1 ;
+- g2771 MX2X1 ;
+- g2772 MX2X1 ;
+- g2782 INVX1 ;
+- G64_reg DFFSRX1 ;
+- G66_reg DFFSRX1 ;
+- g2759 OR2X1 ;
+- g2760 NAND3X1 ;
+- g2761 INVX1 ;
+- g2799 AND2X1 ;
+- g2803 NAND2X1 ;
+- G91_reg DFFSRX1 ;
+- G65_reg DFFSRX1 ;
+- G90_reg DFFSRX1 ;
+- G23_reg DFFSRX1 ;
+- g2765 MX2X1 ;
+- g2766 MX2X1 ;
+- g2767 MX2X1 ;
+- g2768 MX2X1 ;
+- g2769 MX2X1 ;
+- g2770 MX2X1 ;
+- g2779 NAND3X1 ;
+- g2785 NOR2X1 ;
+- g2786 NOR2X1 ;
+- g2787 NAND2X1 ;
+- g2795 INVX1 ;
+- g2806 AND2X1 ;
+- g2777 INVX1 ;
+- g2796 AOI21X1 ;
+- g2797 INVX1 ;
+- g2801 AOI21X1 ;
+- g2811 NAND2X1 ;
+- g2826 NAND2X1 ;
+- g2841 NAND2X1 ;
+- g2846 OAI21X1 ;
+- g2800 NOR2X1 ;
+- g2778 NAND3X1 ;
+- g2790 OAI21X1 ;
+- g2798 AOI21X1 ;
+- g2802 NAND3X1 ;
+- g2813 INVX1 ;
+- g2815 AOI22X1 ;
+- g2816 AOI22X1 ;
+- g2824 INVX1 ;
+- g2827 AOI22X1 ;
+- g2828 MX2X1 ;
+- g2784 NAND3X1 ;
+- g2814 NOR2X1 ;
+- g2818 INVX1 ;
+- g2823 NAND2X1 ;
+- g2852 OAI21X1 ;
+- g2804 NOR2X1 ;
+- g2886 MX2X1 ;
+- g2839 OAI21X1 ;
+- g2840 NAND2X1 ;
+- g2843 NAND2X1 ;
+- g2858 AOI22X1 ;
+- g2822 AOI21X1 ;
+- g2835 INVX1 ;
+- g2904 NAND2X1 ;
+- G92_reg DFFSRX1 ;
+- g2821 OR4X1 ;
+- g2915 OR2X1 ;
+- g2836 AND2X1 ;
+- G22_reg DFFSRX1 ;
+- g2845 OAI21X1 ;
+- g3014 INVX1 ;
+- g2842 NOR2X1 ;
+- g2844 OAI21X1 ;
+- g2866 INVX1 ;
+- G89_reg DFFSRX1 ;
+- g3018 INVX1 ;
+- G88_reg DFFSRX1 ;
+- G87_reg DFFSRX1 ;
+- G94_reg DFFSRX1 ;
+- g2851 NAND2X1 ;
+- g2856 XOR2X1 ;
+- g2857 XOR2X1 ;
+- g2867 AND2X1 ;
+- G35_reg DFFSRX1 ;
+- g2860 NOR2X1 ;
+- g2861 NOR2X1 ;
+- g2862 NOR2X1 ;
+- g2864 NOR2X1 ;
+- g2865 NOR2X1 ;
+- g2877 INVX1 ;
+- g2884 MX2X1 ;
+- g2885 MX2X1 ;
+- g2888 MX2X1 ;
+- g2903 NAND2X1 ;
+- g2893 XOR2X1 ;
+- g2859 NAND4X1 ;
+- G86_reg DFFSRX1 ;
+- g2874 XOR2X1 ;
+- g2879 NAND4X1 ;
+- g2892 XOR2X1 ;
+- g2898 NAND2X1 ;
+- g2906 NOR2X1 ;
+- g3022 INVX1 ;
+- g2890 AOI22X1 ;
+- g2887 MX2X1 ;
+- g2891 MX2X1 ;
+- g2871 NOR2X1 ;
+- g2872 AND2X1 ;
+- g2873 XOR2X1 ;
+- g2875 XOR2X1 ;
+- g2876 XOR2X1 ;
+- g2880 AOI22X1 ;
+- g2881 AOI22X1 ;
+- g2882 MX2X1 ;
+- g2883 MX2X1 ;
+- g2894 XOR2X1 ;
+- g2895 INVX1 ;
+- g2900 AND2X1 ;
+- g2910 NOR2X1 ;
+- g2911 AND2X1 ;
+- g2941 INVX1 ;
+- g2984 INVX1 ;
+- g2991 INVX1 ;
+- g2909 NOR2X1 ;
+- g2997 INVX1 ;
+- g2993 CLKBUFX1 ;
+- g2914 NOR2X1 ;
+- g2913 OR2X1 ;
+- g3001 INVX1 ;
+- g2912 NOR2X1 ;
+- g2946 INVX1 ;
+- g2955 INVX1 ;
+- g2931 INVX1 ;
+- g2988 INVX1 ;
+- g2975 INVX1 ;
+- g2971 INVX1 ;
+- g2962 INVX1 ;
+- g2924 INVX1 ;
+- g3004 INVX1 ;
+- g2917 INVX1 ;
+- g3005 INVX1 ;
+- g2923 INVX1 ;
+- g2929 INVX1 ;
+- g2963 INVX1 ;
+- g2961 INVX1 ;
+- g2919 INVX1 ;
+- g2952 INVX1 ;
+- g2967 INVX1 ;
+- g2926 INVX1 ;
+- g2958 INVX1 ;
+- g2949 INVX1 ;
+- g2983 INVX1 ;
+- g2925 INVX1 ;
+- g2980 INVX1 ;
+- g2977 INVX1 ;
+- g2969 INVX1 ;
+- g3110 INVX1 ;
+- g3119 INVX1 ;
+- g3124 INVX1 ;
+- g3128 INVX1 ;
+- g3130 INVX1 ;
+- g3133 INVX1 ;
+- g3138 INVX1 ;
+- g3146 INVX1 ;
+- g31 NAND4X1 ;
+- g3152 INVX1 ;
+- g35 INVX1 ;
+- g32 NAND2X1 ;
+- g3169 NAND2X1 ;
+- g3182 NOR2X1 ;
+- g46 NAND2X1 ;
+- g48 INVX1 ;
+- g40 NAND2X1 ;
+- g43 AND2X1 ;
+- g3194 NAND2X1 ;
+- g3195 NAND2X1 ;
+- g3199 AOI21X1 ;
+- g3200 NAND2X1 ;
+- g3201 INVX1 ;
+- g3202 NAND2X1 ;
+- g3203 NAND2X1 ;
+- g3204 NAND3X1 ;
+- g3210 NAND3X1 ;
+- g22 NAND3X1 ;
+- g26_dup NAND2X1 ;
+- g3224 NAND2X1 ;
+- g3229 INVX1 ;
+- g3230 INVX1 ;
+- g3233 OR2X1 ;
+- g3234 OR2X1 ;
+- g3237 NOR2X1 ;
+- g3241 INVX1 ;
+- g17 INVX1 ;
+- g3246 NAND3X1 ;
+- g25 NAND2X1 ;
+- g3253 NAND2X1 ;
+- g3254 INVX1 ;
+- g21 AND2X1 ;
+- g3282 NAND2X1 ;
+- g3283 NAND3X1 ;
+- g3284 INVX1 ;
+- g3285 NOR2X1 ;
+- g3287 NAND3X1 ;
+- g3288 INVX1 ;
+- g33_dup NOR2X1 ;
+- g3294 OR2X1 ;
+- g3296 INVX1 ;
+- g3318 INVX1 ;
+- g3333 NOR2X1 ;
+- g3336 INVX1 ;
+- g3345 NAND2X1 ;
+- g50 INVX1 ;
+- g3353 NOR2X1 ;
+- g3354 INVX1 ;
+- g12 NAND2X1 ;
+- g15 INVX1 ;
+- g3374 NAND2X1 ;
+- g3387 AND2X1 ;
+- g3388 AND2X1 ;
+- g3393 NAND2X1 ;
+- g3399 INVX1 ;
+- g3400 INVX1 ;
+- g3406 NOR2X1 ;
+- g3407 NAND2X1 ;
+- g3408 AOI21X1 ;
+- g3409 NOR2X1 ;
+- g3410 INVX1 ;
+- g3412 AOI21X1 ;
+- g3444 NOR2X1 ;
+- g3447 NAND2X2 ;
+- g24 INVX1 ;
+- g3450 NOR2X1 ;
+- g3451 NAND2X1 ;
+- g3457 INVX1 ;
+- g3458 INVX1 ;
+- g3459 CLKBUFX1 ;
+- g11 MX2X1 ;
+- g3465 INVX1 ;
+- g3483 INVX1 ;
+- g3495 NAND2X1 ;
+- g3505 NAND2X1 ;
+- g3506 AOI21X1 ;
+- g3507 NAND2X1 ;
+- g3508 INVX1 ;
+- g3509 OAI21X1 ;
+- g3510 AOI21X1 ;
+- g3511 NAND2X1 ;
+- g3515 INVX1 ;
+- g3516 NAND4X1 ;
+- g3524 OAI21X1 ;
+- g3525 NOR2X1 ;
+- g3558 BUFX1 ;
+- g3566 INVX1 ;
+- g19 OAI21X1 ;
+- g8 NAND2X1 ;
+- g9 INVX2 ;
+- g3315_dup NAND2X1 ;
+- g3609 OAI21X1 ;
+- g3205_dup OAI21X1 ;
+- g3610 NAND2X1 ;
+- g3611 OR2X1 ;
+- g2635_dup OR2X1 ;
+- g3613 NAND2X1 ;
+- g47_dup NAND2X1 ;
+- g3664 NOR2X1 ;
+- g3677 OR2X1 ;
+- g3682 OAI21X1 ;
+- g3685 NAND4X1 ;
+- g3686 NAND2X1 ;
+- g3689 AOI21X1 ;
+- g3692 NOR2X1 ;
+- g3693 INVX1 ;
+- g3694 AOI21X1 ;
+- g3696 NAND3X1 ;
+- g3697 INVX1 ;
+- g3703 NAND3X1 ;
+- g3706 AND2X1 ;
+- g3740 NOR2X1 ;
+- g3743 OAI21X1 ;
+- g3744 NAND2X1 ;
+- g3745 AND2X1 ;
+- g3746 NAND2X1 ;
+- g3747 NAND3X1 ;
+- g3753 AOI21X1 ;
+- g3754 INVX1 ;
+- g3755 NAND2X1 ;
+- g3756 OR2X1 ;
+- g3759 NAND2X2 ;
+- g3764 OR2X1 ;
+- g3767 NOR2X1 ;
+- g3768 INVX1 ;
+- g3782 NAND2X1 ;
+- g3783 OAI21X1 ;
+- g3785 AOI21X1 ;
+- g3786 NAND3X1 ;
+- g3789 INVX1 ;
+- g3790 NAND2X1 ;
+- g3797 NAND2X1 ;
+- g3798 AOI21X1 ;
+- g3799 NAND4X1 ;
+- g3800 AND2X1 ;
+- g3801 AND2X1 ;
+- g41 NOR2X1 ;
+- g3802 NAND2X1 ;
+- g42 INVX1 ;
+- g37 NAND2X1 ;
+- g3804 NAND2X1 ;
+- g20 OR2X1 ;
+- g3812 NAND2X2 ;
+- g18 CLKBUFX1 ;
+- g3813 NAND2X1 ;
+- g3822 OAI21X1 ;
+- g3823 NOR2X1 ;
+- g3824 NAND2X1 ;
+- g3833 INVX1 ;
+- g3834 CLKBUFX1 ;
+- g3835 INVX1 ;
+- g3836 NAND2X1 ;
+- g15_dup NAND2X1 ;
+- g3844 NAND2X1 ;
+- g3846 AND2X1 ;
+- g3847 AND2X1 ;
+- g3848 INVX1 ;
+- g3851 AND2X1 ;
+- g3855 AOI21X1 ;
+- g3856 NAND2X1 ;
+- g3857 INVX1 ;
+- g3858 NAND2X2 ;
+- g3859 INVX1 ;
+- g3866 INVX1 ;
+- g3869 NAND2X1 ;
+- g3890 NAND2X1 ;
+- g33_dup3910 OAI21X1 ;
+- g3911 NAND2X2 ;
+- g3208_dup NAND2X1 ;
+- g3765_dup NAND2X1 ;
+- g3913 NAND2X1 ;
+- g3837_dup NAND2X1 ;
+- g3915 INVX1 ;
+- g3917 INVX2 ;
+- g3918 INVX2 ;
+- g3920 NAND2X1 ;
+- g3921 NAND2X1 ;
+- g3922 AND2X1 ;
+- g1 CLKBUFX1 ;
+- g3924 AND2X1 ;
+- g3927 INVX1 ;
+- g33 INVX1 ;
+- g3933 OAI21X1 ;
+- g3934 NAND2X1 ;
+- g3941 NAND2X1 ;
+- g3942 NAND2X2 ;
+- g3945 CLKBUFX1 ;
+- g3946 NAND3X1 ;
+- g3947 NAND2X1 ;
+- g3948 NAND2X1 ;
+- g3949 OR2X1 ;
+- g3952 NOR2X1 ;
+- g23 AOI21X1 ;
+- g3954 AND2X1 ;
+- g3955 NAND2X1 ;
+- g3956 NAND2X1 ;
+- g3957 INVX1 ;
+- g3958 NOR2X1 ;
+- g3959 NAND2X1 ;
+- g3963 NAND2X1 ;
+- g3964 NOR2X1 ;
+- g3965 NAND2X2 ;
+- g3966 NAND2X1 ;
+- g3967 INVX1 ;
+- g3971 INVX1 ;
+- g3972 NOR2X1 ;
+- g3975 NOR2X1 ;
+- g3976 AOI21X1 ;
+- g3977 NAND2X1 ;
+- g3978 NAND2X1 ;
+- g3979 NAND2X1 ;
+- g3980 NOR2X1 ;
+- g3982 NAND4X1 ;
+- g3983 INVX1 ;
+- g49 NOR2X1 ;
+- g3987 AOI21X1 ;
+- g3988 NAND2X1 ;
+- g3989 NOR2X1 ;
+- g29 NAND2X1 ;
+- g3992 AOI22X1 ;
+- g3993 NAND2X1 ;
+- g3994 OR2X1 ;
+- g3995 NAND2X2 ;
+- g3996 CLKBUFX1 ;
+- g3998 NOR2X1 ;
+- g3999 NAND2X1 ;
+- g4007 AOI21X1 ;
+- g4008 NAND2X1 ;
+- g4009 AND2X1 ;
+- g4010 CLKBUFX1 ;
+- g4011 INVX2 ;
+- g4012 NAND2X1 ;
+- g3 CLKBUFX3 ;
+- g14_dup NAND2X1 ;
+- g4014 AND2X1 ;
+- g4015 NAND2X1 ;
+- g4016 NAND2X1 ;
+- g3919_dup NAND2X1 ;
+- g4017 CLKBUFX2 ;
+- g4018 INVX1 ;
+- g4019 CLKBUFX1 ;
+- g4020 INVX1 ;
+- g4024 NAND2X2 ;
+- g4025 NAND2X1 ;
+- g4026 OAI21X1 ;
+- g4027 NOR2X1 ;
+- g27 INVX2 ;
+- g4028 OR2X1 ;
+- g16 NAND2X1 ;
+- g4029 NAND2X1 ;
+- g4030 NAND2X1 ;
+- g4031 NAND3X1 ;
+- g4032 NAND2X1 ;
+- g4033 NAND2X2 ;
+- g4034 NAND2X1 ;
+- g4035 NAND2X1 ;
+- g4036 INVX1 ;
+- g4037 NAND2X1 ;
+END COMPONENTS
+
+PINS 26 ;
+- GRND + NET GRND + DIRECTION INPUT + USE GROUND ;
+- POWR + NET POWR + DIRECTION INPUT + USE POWER ;
+- G701BF + NET G701BF + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 )
+  ( 300 600 ) ;
+- G727 + NET G727 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- G702 + NET G702 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- G729 + NET G729 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- G726 + NET G726 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- G16 + NET G16 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G15 + NET G15 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G14 + NET G14 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G13 + NET G13 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G12 + NET G12 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G11 + NET G11 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G10 + NET G10 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G9 + NET G9 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G8 + NET G8 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G7 + NET G7 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G6 + NET G6 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G5 + NET G5 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G4 + NET G4 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G3 + NET G3 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G2 + NET G2 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G1 + NET G1 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G0 + NET G0 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- blif_reset_net + NET blif_reset_net + DIRECTION INPUT + USE SIGNAL
+  + LAYER Metal1 ( -300 0 ) ( 300 600 ) ;
+- blif_clk_net + NET blif_clk_net + DIRECTION INPUT + USE SIGNAL + LAYER Metal1
+  ( -300 0 ) ( 300 600 ) ;
+END PINS
+
+SPECIALNETS 2 ;
+- GRND ( g4037 GRND ) ( g4036 GRND ) ( g4035 GRND ) ( g4034 GRND )
+  ( g4033 GRND ) ( g4032 GRND ) ( g4031 GRND ) ( g4030 GRND ) ( g4029 GRND )
+  ( g16 GRND ) ( g4028 GRND ) ( g27 GRND ) ( g4027 GRND ) ( g4026 GRND )
+  ( g4025 GRND ) ( g4024 GRND ) ( g4020 GRND ) ( g4019 GRND ) ( g4018 GRND )
+  ( g4017 GRND ) ( g3919_dup GRND ) ( g4016 GRND ) ( g4015 GRND ) ( g4014 GRND )
+  ( g14_dup GRND ) ( g3 GRND ) ( g4012 GRND ) ( g4011 GRND ) ( g4010 GRND )
+  ( g4009 GRND ) ( g4008 GRND ) ( g4007 GRND ) ( g3999 GRND ) ( g3998 GRND )
+  ( g3996 GRND ) ( g3995 GRND ) ( g3994 GRND ) ( g3993 GRND ) ( g3992 GRND )
+  ( g29 GRND ) ( g3989 GRND ) ( g3988 GRND ) ( g3987 GRND ) ( g49 GRND )
+  ( g3983 GRND ) ( g3982 GRND ) ( g3980 GRND ) ( g3979 GRND ) ( g3978 GRND )
+  ( g3977 GRND ) ( g3976 GRND ) ( g3975 GRND ) ( g3972 GRND ) ( g3971 GRND )
+  ( g3967 GRND ) ( g3966 GRND ) ( g3965 GRND ) ( g3964 GRND ) ( g3963 GRND )
+  ( g3959 GRND ) ( g3958 GRND ) ( g3957 GRND ) ( g3956 GRND ) ( g3955 GRND )
+  ( g3954 GRND ) ( g23 GRND ) ( g3952 GRND ) ( g3949 GRND ) ( g3948 GRND )
+  ( g3947 GRND ) ( g3946 GRND ) ( g3945 GRND ) ( g3942 GRND ) ( g3941 GRND )
+  ( g3934 GRND ) ( g3933 GRND ) ( g33 GRND ) ( g3927 GRND ) ( g3924 GRND )
+  ( g1 GRND ) ( g3922 GRND ) ( g3921 GRND ) ( g3920 GRND ) ( g3918 GRND )
+  ( g3917 GRND ) ( g3915 GRND ) ( g3837_dup GRND ) ( g3913 GRND )
+  ( g3765_dup GRND ) ( g3208_dup GRND ) ( g3911 GRND ) ( g33_dup3910 GRND )
+  ( g3890 GRND ) ( g3869 GRND ) ( g3866 GRND ) ( g3859 GRND ) ( g3858 GRND )
+  ( g3857 GRND ) ( g3856 GRND ) ( g3855 GRND ) ( g3851 GRND ) ( g3848 GRND )
+  ( g3847 GRND ) ( g3846 GRND ) ( g3844 GRND ) ( g15_dup GRND ) ( g3836 GRND )
+  ( g3835 GRND ) ( g3834 GRND ) ( g3833 GRND ) ( g3824 GRND ) ( g3823 GRND )
+  ( g3822 GRND ) ( g3813 GRND ) ( g18 GRND ) ( g3812 GRND ) ( g20 GRND )
+  ( g3804 GRND ) ( g37 GRND ) ( g42 GRND ) ( g3802 GRND ) ( g41 GRND )
+  ( g3801 GRND ) ( g3800 GRND ) ( g3799 GRND ) ( g3798 GRND ) ( g3797 GRND )
+  ( g3790 GRND ) ( g3789 GRND ) ( g3786 GRND ) ( g3785 GRND ) ( g3783 GRND )
+  ( g3782 GRND ) ( g3768 GRND ) ( g3767 GRND ) ( g3764 GRND ) ( g3759 GRND )
+  ( g3756 GRND ) ( g3755 GRND ) ( g3754 GRND ) ( g3753 GRND ) ( g3747 GRND )
+  ( g3746 GRND ) ( g3745 GRND ) ( g3744 GRND ) ( g3743 GRND ) ( g3740 GRND )
+  ( g3706 GRND ) ( g3703 GRND ) ( g3697 GRND ) ( g3696 GRND ) ( g3694 GRND )
+  ( g3693 GRND ) ( g3692 GRND ) ( g3689 GRND ) ( g3686 GRND ) ( g3685 GRND )
+  ( g3682 GRND ) ( g3677 GRND ) ( g3664 GRND ) ( g47_dup GRND ) ( g3613 GRND )
+  ( g2635_dup GRND ) ( g3611 GRND ) ( g3610 GRND ) ( g3205_dup GRND )
+  ( g3609 GRND ) ( g3315_dup GRND ) ( g9 GRND ) ( g8 GRND ) ( g19 GRND )
+  ( g3566 GRND ) ( g3558 GRND ) ( g3525 GRND ) ( g3524 GRND ) ( g3516 GRND )
+  ( g3515 GRND ) ( g3511 GRND ) ( g3510 GRND ) ( g3509 GRND ) ( g3508 GRND )
+  ( g3507 GRND ) ( g3506 GRND ) ( g3505 GRND ) ( g3495 GRND ) ( g3483 GRND )
+  ( g3465 GRND ) ( g11 GRND ) ( g3459 GRND ) ( g3458 GRND ) ( g3457 GRND )
+  ( g3451 GRND ) ( g3450 GRND ) ( g24 GRND ) ( g3447 GRND ) ( g3444 GRND )
+  ( g3412 GRND ) ( g3410 GRND ) ( g3409 GRND ) ( g3408 GRND ) ( g3407 GRND )
+  ( g3406 GRND ) ( g3400 GRND ) ( g3399 GRND ) ( g3393 GRND ) ( g3388 GRND )
+  ( g3387 GRND ) ( g3374 GRND ) ( g15 GRND ) ( g12 GRND ) ( g3354 GRND )
+  ( g3353 GRND ) ( g50 GRND ) ( g3345 GRND ) ( g3336 GRND ) ( g3333 GRND )
+  ( g3318 GRND ) ( g3296 GRND ) ( g3294 GRND ) ( g33_dup GRND ) ( g3288 GRND )
+  ( g3287 GRND ) ( g3285 GRND ) ( g3284 GRND ) ( g3283 GRND ) ( g3282 GRND )
+  ( g21 GRND ) ( g3254 GRND ) ( g3253 GRND ) ( g25 GRND ) ( g3246 GRND )
+  ( g17 GRND ) ( g3241 GRND ) ( g3237 GRND ) ( g3234 GRND ) ( g3233 GRND )
+  ( g3230 GRND ) ( g3229 GRND ) ( g3224 GRND ) ( g26_dup GRND ) ( g22 GRND )
+  ( g3210 GRND ) ( g3204 GRND ) ( g3203 GRND ) ( g3202 GRND ) ( g3201 GRND )
+  ( g3200 GRND ) ( g3199 GRND ) ( g3195 GRND ) ( g3194 GRND ) ( g43 GRND )
+  ( g40 GRND ) ( g48 GRND ) ( g46 GRND ) ( g3182 GRND ) ( g3169 GRND )
+  ( g32 GRND ) ( g35 GRND ) ( g3152 GRND ) ( g31 GRND ) ( g3146 GRND )
+  ( g3138 GRND ) ( g3133 GRND ) ( g3130 GRND ) ( g3128 GRND ) ( g3124 GRND )
+  ( g3119 GRND ) ( g3110 GRND ) ( g2969 GRND ) ( g2977 GRND ) ( g2980 GRND )
+  ( g2925 GRND ) ( g2983 GRND ) ( g2949 GRND ) ( g2958 GRND ) ( g2926 GRND )
+  ( g2967 GRND ) ( g2952 GRND ) ( g2919 GRND ) ( g2961 GRND ) ( g2963 GRND )
+  ( g2929 GRND ) ( g2923 GRND ) ( g3005 GRND ) ( g2917 GRND ) ( g3004 GRND )
+  ( g2924 GRND ) ( g2962 GRND ) ( g2971 GRND ) ( g2975 GRND ) ( g2988 GRND )
+  ( g2931 GRND ) ( g2955 GRND ) ( g2946 GRND ) ( g2912 GRND ) ( g3001 GRND )
+  ( g2913 GRND ) ( g2914 GRND ) ( g2993 GRND ) ( g2997 GRND ) ( g2909 GRND )
+  ( g2991 GRND ) ( g2984 GRND ) ( g2941 GRND ) ( g2911 GRND ) ( g2910 GRND )
+  ( g2900 GRND ) ( g2895 GRND ) ( g2894 GRND ) ( g2883 GRND ) ( g2882 GRND )
+  ( g2881 GRND ) ( g2880 GRND ) ( g2876 GRND ) ( g2875 GRND ) ( g2873 GRND )
+  ( g2872 GRND ) ( g2871 GRND ) ( g2891 GRND ) ( g2887 GRND ) ( g2890 GRND )
+  ( g3022 GRND ) ( g2906 GRND ) ( g2898 GRND ) ( g2892 GRND ) ( g2879 GRND )
+  ( g2874 GRND ) ( G86_reg GRND ) ( g2859 GRND ) ( g2893 GRND ) ( g2903 GRND )
+  ( g2888 GRND ) ( g2885 GRND ) ( g2884 GRND ) ( g2877 GRND ) ( g2865 GRND )
+  ( g2864 GRND ) ( g2862 GRND ) ( g2861 GRND ) ( g2860 GRND ) ( G35_reg GRND )
+  ( g2867 GRND ) ( g2857 GRND ) ( g2856 GRND ) ( g2851 GRND ) ( G94_reg GRND )
+  ( G87_reg GRND ) ( G88_reg GRND ) ( g3018 GRND ) ( G89_reg GRND )
+  ( g2866 GRND ) ( g2844 GRND ) ( g2842 GRND ) ( g3014 GRND ) ( g2845 GRND )
+  ( G22_reg GRND ) ( g2836 GRND ) ( g2915 GRND ) ( g2821 GRND ) ( G92_reg GRND )
+  ( g2904 GRND ) ( g2835 GRND ) ( g2822 GRND ) ( g2858 GRND ) ( g2843 GRND )
+  ( g2840 GRND ) ( g2839 GRND ) ( g2886 GRND ) ( g2804 GRND ) ( g2852 GRND )
+  ( g2823 GRND ) ( g2818 GRND ) ( g2814 GRND ) ( g2784 GRND ) ( g2828 GRND )
+  ( g2827 GRND ) ( g2824 GRND ) ( g2816 GRND ) ( g2815 GRND ) ( g2813 GRND )
+  ( g2802 GRND ) ( g2798 GRND ) ( g2790 GRND ) ( g2778 GRND ) ( g2800 GRND )
+  ( g2846 GRND ) ( g2841 GRND ) ( g2826 GRND ) ( g2811 GRND ) ( g2801 GRND )
+  ( g2797 GRND ) ( g2796 GRND ) ( g2777 GRND ) ( g2806 GRND ) ( g2795 GRND )
+  ( g2787 GRND ) ( g2786 GRND ) ( g2785 GRND ) ( g2779 GRND ) ( g2770 GRND )
+  ( g2769 GRND ) ( g2768 GRND ) ( g2767 GRND ) ( g2766 GRND ) ( g2765 GRND )
+  ( G23_reg GRND ) ( G90_reg GRND ) ( G65_reg GRND ) ( G91_reg GRND )
+  ( g2803 GRND ) ( g2799 GRND ) ( g2761 GRND ) ( g2760 GRND ) ( g2759 GRND )
+  ( G66_reg GRND ) ( G64_reg GRND ) ( g2782 GRND ) ( g2772 GRND ) ( g2771 GRND )
+  ( g2758 GRND ) ( G80_reg GRND ) ( G84_reg GRND ) ( G82_reg GRND )
+  ( G79_reg GRND ) ( G85_reg GRND ) ( G81_reg GRND ) ( g2773 GRND )
+  ( g2756 GRND ) ( g2755 GRND ) ( g2754 GRND ) ( g2744 GRND ) ( g2781 GRND )
+  ( G73_reg GRND ) ( G71_reg GRND ) ( g2743 GRND ) ( g2737 GRND )
+  ( G72_reg GRND ) ( g2740 GRND ) ( g2738 GRND ) ( g2736 GRND ) ( g2734 GRND )
+  ( g2733 GRND ) ( G42_reg GRND ) ( g2757 GRND ) ( g2730 GRND ) ( G43_reg GRND )
+  ( g2735 GRND ) ( g2732 GRND ) ( g2731 GRND ) ( g2726 GRND ) ( g2724 GRND )
+  ( g2727 GRND ) ( g2725 GRND ) ( g2721 GRND ) ( G44_reg GRND ) ( g2723 GRND )
+  ( g2719 GRND ) ( g2717 GRND ) ( G95_reg GRND ) ( G45_reg GRND )
+  ( G63_reg GRND ) ( G46_reg GRND ) ( g2708 GRND ) ( g2707 GRND ) ( g2706 GRND )
+  ( g2705 GRND ) ( g2704 GRND ) ( g2700 GRND ) ( g2702 GRND ) ( g2701 GRND )
+  ( g2699 GRND ) ( g2692 GRND ) ( g2691 GRND ) ( G93_reg GRND ) ( g2696 GRND )
+  ( g2698 GRND ) ( g2697 GRND ) ( g2682 GRND ) ( G24_reg GRND ) ( G25_reg GRND )
+  ( g2687 GRND ) ( G26_reg GRND ) ( g2683 GRND ) ( g2681 GRND ) ( g2678 GRND )
+  ( g2684 GRND ) ( g2670 GRND ) ( G27_reg GRND ) ( G28_reg GRND ) ( g2675 GRND )
+  ( g2674 GRND ) ( g2666 GRND ) ( g2663 GRND ) ( G30_reg GRND ) ( G29_reg GRND )
+  ( g2672 GRND ) ( g2671 GRND ) ( G31_reg GRND ) ( g2667 GRND ) ( g2664 GRND )
+  ( g2661 GRND ) ( g2643 GRND ) ( G32_reg GRND ) ( g2660 GRND ) ( g2638 GRND )
+  ( g2656 GRND ) ( g2641 GRND ) ( g2636 GRND ) ( g2657 GRND ) ( g2616 GRND )
+  ( g2644 GRND ) ( g2632 GRND ) ( g2630 GRND ) ( g2615 GRND ) ( G33_reg GRND )
+  ( g2610 GRND ) ( g2631 GRND ) ( g2629 GRND ) ( g2627 GRND ) ( g2626 GRND )
+  ( g2625 GRND ) ( g2624 GRND ) ( g2623 GRND ) ( g2620 GRND ) ( g2619 GRND )
+  ( g2618 GRND ) ( g2617 GRND ) ( g2612 GRND ) ( g2592 GRND ) ( G34_reg GRND )
+  ( g2628 GRND ) ( G39_reg GRND ) ( g2611 GRND ) ( g2614 GRND ) ( g2613 GRND )
+  ( g2597 GRND ) ( g2588 GRND ) ( g2583 GRND ) ( g2605 GRND ) ( g2604 GRND )
+  ( g2603 GRND ) ( g2602 GRND ) ( G56_reg GRND ) ( G40_reg GRND )
+  ( G55_reg GRND ) ( G54_reg GRND ) ( g2593 GRND ) ( g2577 GRND )
+  ( G41_reg GRND ) ( G48_reg GRND ) ( G50_reg GRND ) ( G47_reg GRND )
+  ( G49_reg GRND ) ( g2590 GRND ) ( g2589 GRND ) ( g2576 GRND ) ( g2574 GRND )
+  ( G36_reg GRND ) ( g2570 GRND ) ( g2563 GRND ) ( G37_reg GRND )
+  ( G38_reg GRND ) ( g2572 GRND ) ( g2571 GRND ) ( g2568 GRND ) ( g2551 GRND )
+  ( g2542 GRND ) ( G83_reg GRND ) ( g2560 GRND ) ( g2556 GRND ) ( g2557 GRND )
+  ( G74_reg GRND ) ( g2553 GRND ) ( g2549 GRND ) ( g2548 GRND ) ( g2554 GRND )
+  ( G58_reg GRND ) ( G57_reg GRND ) ( G59_reg GRND ) ( G75_reg GRND )
+  ( g2521 GRND ) ( G76_reg GRND ) ( g2524 GRND ) ( g2525 GRND ) ( g2513 GRND )
+  ( g2504 GRND ) ( G77_reg GRND ) ( g2514 GRND ) ( g2503 GRND ) ( g2516 GRND )
+  ( g2507 GRND ) ( G51_reg GRND ) ( G60_reg GRND ) ( G78_reg GRND )
+  ( g2506 GRND ) ( G52_reg GRND ) ( G61_reg GRND ) ( G62_reg GRND )
+  ( G53_reg GRND ) ( g2493 GRND ) ( g2484 GRND ) ( g2473 GRND ) ( G67_reg GRND )
+  ( G68_reg GRND ) ( g2468 GRND ) ( G69_reg GRND ) ( G70_reg GRND ) + USE GROUND
+  ;
+- POWR ( g4037 POWR ) ( g4036 POWR ) ( g4035 POWR ) ( g4034 POWR )
+  ( g4033 POWR ) ( g4032 POWR ) ( g4031 POWR ) ( g4030 POWR ) ( g4029 POWR )
+  ( g16 POWR ) ( g4028 POWR ) ( g27 POWR ) ( g4027 POWR ) ( g4026 POWR )
+  ( g4025 POWR ) ( g4024 POWR ) ( g4020 POWR ) ( g4019 POWR ) ( g4018 POWR )
+  ( g4017 POWR ) ( g3919_dup POWR ) ( g4016 POWR ) ( g4015 POWR ) ( g4014 POWR )
+  ( g14_dup POWR ) ( g3 POWR ) ( g4012 POWR ) ( g4011 POWR ) ( g4010 POWR )
+  ( g4009 POWR ) ( g4008 POWR ) ( g4007 POWR ) ( g3999 POWR ) ( g3998 POWR )
+  ( g3996 POWR ) ( g3995 POWR ) ( g3994 POWR ) ( g3993 POWR ) ( g3992 POWR )
+  ( g29 POWR ) ( g3989 POWR ) ( g3988 POWR ) ( g3987 POWR ) ( g49 POWR )
+  ( g3983 POWR ) ( g3982 POWR ) ( g3980 POWR ) ( g3979 POWR ) ( g3978 POWR )
+  ( g3977 POWR ) ( g3976 POWR ) ( g3975 POWR ) ( g3972 POWR ) ( g3971 POWR )
+  ( g3967 POWR ) ( g3966 POWR ) ( g3965 POWR ) ( g3964 POWR ) ( g3963 POWR )
+  ( g3959 POWR ) ( g3958 POWR ) ( g3957 POWR ) ( g3956 POWR ) ( g3955 POWR )
+  ( g3954 POWR ) ( g23 POWR ) ( g3952 POWR ) ( g3949 POWR ) ( g3948 POWR )
+  ( g3947 POWR ) ( g3946 POWR ) ( g3945 POWR ) ( g3942 POWR ) ( g3941 POWR )
+  ( g3934 POWR ) ( g3933 POWR ) ( g33 POWR ) ( g3927 POWR ) ( g3924 POWR )
+  ( g1 POWR ) ( g3922 POWR ) ( g3921 POWR ) ( g3920 POWR ) ( g3918 POWR )
+  ( g3917 POWR ) ( g3915 POWR ) ( g3837_dup POWR ) ( g3913 POWR )
+  ( g3765_dup POWR ) ( g3208_dup POWR ) ( g3911 POWR ) ( g33_dup3910 POWR )
+  ( g3890 POWR ) ( g3869 POWR ) ( g3866 POWR ) ( g3859 POWR ) ( g3858 POWR )
+  ( g3857 POWR ) ( g3856 POWR ) ( g3855 POWR ) ( g3851 POWR ) ( g3848 POWR )
+  ( g3847 POWR ) ( g3846 POWR ) ( g3844 POWR ) ( g15_dup POWR ) ( g3836 POWR )
+  ( g3835 POWR ) ( g3834 POWR ) ( g3833 POWR ) ( g3824 POWR ) ( g3823 POWR )
+  ( g3822 POWR ) ( g3813 POWR ) ( g18 POWR ) ( g3812 POWR ) ( g20 POWR )
+  ( g3804 POWR ) ( g37 POWR ) ( g42 POWR ) ( g3802 POWR ) ( g41 POWR )
+  ( g3801 POWR ) ( g3800 POWR ) ( g3799 POWR ) ( g3798 POWR ) ( g3797 POWR )
+  ( g3790 POWR ) ( g3789 POWR ) ( g3786 POWR ) ( g3785 POWR ) ( g3783 POWR )
+  ( g3782 POWR ) ( g3768 POWR ) ( g3767 POWR ) ( g3764 POWR ) ( g3759 POWR )
+  ( g3756 POWR ) ( g3755 POWR ) ( g3754 POWR ) ( g3753 POWR ) ( g3747 POWR )
+  ( g3746 POWR ) ( g3745 POWR ) ( g3744 POWR ) ( g3743 POWR ) ( g3740 POWR )
+  ( g3706 POWR ) ( g3703 POWR ) ( g3697 POWR ) ( g3696 POWR ) ( g3694 POWR )
+  ( g3693 POWR ) ( g3692 POWR ) ( g3689 POWR ) ( g3686 POWR ) ( g3685 POWR )
+  ( g3682 POWR ) ( g3677 POWR ) ( g3664 POWR ) ( g47_dup POWR ) ( g3613 POWR )
+  ( g2635_dup POWR ) ( g3611 POWR ) ( g3610 POWR ) ( g3205_dup POWR )
+  ( g3609 POWR ) ( g3315_dup POWR ) ( g9 POWR ) ( g8 POWR ) ( g19 POWR )
+  ( g3566 POWR ) ( g3558 POWR ) ( g3525 POWR ) ( g3524 POWR ) ( g3516 POWR )
+  ( g3515 POWR ) ( g3511 POWR ) ( g3510 POWR ) ( g3509 POWR ) ( g3508 POWR )
+  ( g3507 POWR ) ( g3506 POWR ) ( g3505 POWR ) ( g3495 POWR ) ( g3483 POWR )
+  ( g3465 POWR ) ( g11 POWR ) ( g3459 POWR ) ( g3458 POWR ) ( g3457 POWR )
+  ( g3451 POWR ) ( g3450 POWR ) ( g24 POWR ) ( g3447 POWR ) ( g3444 POWR )
+  ( g3412 POWR ) ( g3410 POWR ) ( g3409 POWR ) ( g3408 POWR ) ( g3407 POWR )
+  ( g3406 POWR ) ( g3400 POWR ) ( g3399 POWR ) ( g3393 POWR ) ( g3388 POWR )
+  ( g3387 POWR ) ( g3374 POWR ) ( g15 POWR ) ( g12 POWR ) ( g3354 POWR )
+  ( g3353 POWR ) ( g50 POWR ) ( g3345 POWR ) ( g3336 POWR ) ( g3333 POWR )
+  ( g3318 POWR ) ( g3296 POWR ) ( g3294 POWR ) ( g33_dup POWR ) ( g3288 POWR )
+  ( g3287 POWR ) ( g3285 POWR ) ( g3284 POWR ) ( g3283 POWR ) ( g3282 POWR )
+  ( g21 POWR ) ( g3254 POWR ) ( g3253 POWR ) ( g25 POWR ) ( g3246 POWR )
+  ( g17 POWR ) ( g3241 POWR ) ( g3237 POWR ) ( g3234 POWR ) ( g3233 POWR )
+  ( g3230 POWR ) ( g3229 POWR ) ( g3224 POWR ) ( g26_dup POWR ) ( g22 POWR )
+  ( g3210 POWR ) ( g3204 POWR ) ( g3203 POWR ) ( g3202 POWR ) ( g3201 POWR )
+  ( g3200 POWR ) ( g3199 POWR ) ( g3195 POWR ) ( g3194 POWR ) ( g43 POWR )
+  ( g40 POWR ) ( g48 POWR ) ( g46 POWR ) ( g3182 POWR ) ( g3169 POWR )
+  ( g32 POWR ) ( g35 POWR ) ( g3152 POWR ) ( g31 POWR ) ( g3146 POWR )
+  ( g3138 POWR ) ( g3133 POWR ) ( g3130 POWR ) ( g3128 POWR ) ( g3124 POWR )
+  ( g3119 POWR ) ( g3110 POWR ) ( g2969 POWR ) ( g2977 POWR ) ( g2980 POWR )
+  ( g2925 POWR ) ( g2983 POWR ) ( g2949 POWR ) ( g2958 POWR ) ( g2926 POWR )
+  ( g2967 POWR ) ( g2952 POWR ) ( g2919 POWR ) ( g2961 POWR ) ( g2963 POWR )
+  ( g2929 POWR ) ( g2923 POWR ) ( g3005 POWR ) ( g2917 POWR ) ( g3004 POWR )
+  ( g2924 POWR ) ( g2962 POWR ) ( g2971 POWR ) ( g2975 POWR ) ( g2988 POWR )
+  ( g2931 POWR ) ( g2955 POWR ) ( g2946 POWR ) ( g2912 POWR ) ( g3001 POWR )
+  ( g2913 POWR ) ( g2914 POWR ) ( g2993 POWR ) ( g2997 POWR ) ( g2909 POWR )
+  ( g2991 POWR ) ( g2984 POWR ) ( g2941 POWR ) ( g2911 POWR ) ( g2910 POWR )
+  ( g2900 POWR ) ( g2895 POWR ) ( g2894 POWR ) ( g2883 POWR ) ( g2882 POWR )
+  ( g2881 POWR ) ( g2880 POWR ) ( g2876 POWR ) ( g2875 POWR ) ( g2873 POWR )
+  ( g2872 POWR ) ( g2871 POWR ) ( g2891 POWR ) ( g2887 POWR ) ( g2890 POWR )
+  ( g3022 POWR ) ( g2906 POWR ) ( g2898 POWR ) ( g2892 POWR ) ( g2879 POWR )
+  ( g2874 POWR ) ( G86_reg POWR ) ( g2859 POWR ) ( g2893 POWR ) ( g2903 POWR )
+  ( g2888 POWR ) ( g2885 POWR ) ( g2884 POWR ) ( g2877 POWR ) ( g2865 POWR )
+  ( g2864 POWR ) ( g2862 POWR ) ( g2861 POWR ) ( g2860 POWR ) ( G35_reg POWR )
+  ( g2867 POWR ) ( g2857 POWR ) ( g2856 POWR ) ( g2851 POWR ) ( G94_reg POWR )
+  ( G87_reg POWR ) ( G88_reg POWR ) ( g3018 POWR ) ( G89_reg POWR )
+  ( g2866 POWR ) ( g2844 POWR ) ( g2842 POWR ) ( g3014 POWR ) ( g2845 POWR )
+  ( G22_reg POWR ) ( g2836 POWR ) ( g2915 POWR ) ( g2821 POWR ) ( G92_reg POWR )
+  ( g2904 POWR ) ( g2835 POWR ) ( g2822 POWR ) ( g2858 POWR ) ( g2843 POWR )
+  ( g2840 POWR ) ( g2839 POWR ) ( g2886 POWR ) ( g2804 POWR ) ( g2852 POWR )
+  ( g2823 POWR ) ( g2818 POWR ) ( g2814 POWR ) ( g2784 POWR ) ( g2828 POWR )
+  ( g2827 POWR ) ( g2824 POWR ) ( g2816 POWR ) ( g2815 POWR ) ( g2813 POWR )
+  ( g2802 POWR ) ( g2798 POWR ) ( g2790 POWR ) ( g2778 POWR ) ( g2800 POWR )
+  ( g2846 POWR ) ( g2841 POWR ) ( g2826 POWR ) ( g2811 POWR ) ( g2801 POWR )
+  ( g2797 POWR ) ( g2796 POWR ) ( g2777 POWR ) ( g2806 POWR ) ( g2795 POWR )
+  ( g2787 POWR ) ( g2786 POWR ) ( g2785 POWR ) ( g2779 POWR ) ( g2770 POWR )
+  ( g2769 POWR ) ( g2768 POWR ) ( g2767 POWR ) ( g2766 POWR ) ( g2765 POWR )
+  ( G23_reg POWR ) ( G90_reg POWR ) ( G65_reg POWR ) ( G91_reg POWR )
+  ( g2803 POWR ) ( g2799 POWR ) ( g2761 POWR ) ( g2760 POWR ) ( g2759 POWR )
+  ( G66_reg POWR ) ( G64_reg POWR ) ( g2782 POWR ) ( g2772 POWR ) ( g2771 POWR )
+  ( g2758 POWR ) ( G80_reg POWR ) ( G84_reg POWR ) ( G82_reg POWR )
+  ( G79_reg POWR ) ( G85_reg POWR ) ( G81_reg POWR ) ( g2773 POWR )
+  ( g2756 POWR ) ( g2755 POWR ) ( g2754 POWR ) ( g2744 POWR ) ( g2781 POWR )
+  ( G73_reg POWR ) ( G71_reg POWR ) ( g2743 POWR ) ( g2737 POWR )
+  ( G72_reg POWR ) ( g2740 POWR ) ( g2738 POWR ) ( g2736 POWR ) ( g2734 POWR )
+  ( g2733 POWR ) ( G42_reg POWR ) ( g2757 POWR ) ( g2730 POWR ) ( G43_reg POWR )
+  ( g2735 POWR ) ( g2732 POWR ) ( g2731 POWR ) ( g2726 POWR ) ( g2724 POWR )
+  ( g2727 POWR ) ( g2725 POWR ) ( g2721 POWR ) ( G44_reg POWR ) ( g2723 POWR )
+  ( g2719 POWR ) ( g2717 POWR ) ( G95_reg POWR ) ( G45_reg POWR )
+  ( G63_reg POWR ) ( G46_reg POWR ) ( g2708 POWR ) ( g2707 POWR ) ( g2706 POWR )
+  ( g2705 POWR ) ( g2704 POWR ) ( g2700 POWR ) ( g2702 POWR ) ( g2701 POWR )
+  ( g2699 POWR ) ( g2692 POWR ) ( g2691 POWR ) ( G93_reg POWR ) ( g2696 POWR )
+  ( g2698 POWR ) ( g2697 POWR ) ( g2682 POWR ) ( G24_reg POWR ) ( G25_reg POWR )
+  ( g2687 POWR ) ( G26_reg POWR ) ( g2683 POWR ) ( g2681 POWR ) ( g2678 POWR )
+  ( g2684 POWR ) ( g2670 POWR ) ( G27_reg POWR ) ( G28_reg POWR ) ( g2675 POWR )
+  ( g2674 POWR ) ( g2666 POWR ) ( g2663 POWR ) ( G30_reg POWR ) ( G29_reg POWR )
+  ( g2672 POWR ) ( g2671 POWR ) ( G31_reg POWR ) ( g2667 POWR ) ( g2664 POWR )
+  ( g2661 POWR ) ( g2643 POWR ) ( G32_reg POWR ) ( g2660 POWR ) ( g2638 POWR )
+  ( g2656 POWR ) ( g2641 POWR ) ( g2636 POWR ) ( g2657 POWR ) ( g2616 POWR )
+  ( g2644 POWR ) ( g2632 POWR ) ( g2630 POWR ) ( g2615 POWR ) ( G33_reg POWR )
+  ( g2610 POWR ) ( g2631 POWR ) ( g2629 POWR ) ( g2627 POWR ) ( g2626 POWR )
+  ( g2625 POWR ) ( g2624 POWR ) ( g2623 POWR ) ( g2620 POWR ) ( g2619 POWR )
+  ( g2618 POWR ) ( g2617 POWR ) ( g2612 POWR ) ( g2592 POWR ) ( G34_reg POWR )
+  ( g2628 POWR ) ( G39_reg POWR ) ( g2611 POWR ) ( g2614 POWR ) ( g2613 POWR )
+  ( g2597 POWR ) ( g2588 POWR ) ( g2583 POWR ) ( g2605 POWR ) ( g2604 POWR )
+  ( g2603 POWR ) ( g2602 POWR ) ( G56_reg POWR ) ( G40_reg POWR )
+  ( G55_reg POWR ) ( G54_reg POWR ) ( g2593 POWR ) ( g2577 POWR )
+  ( G41_reg POWR ) ( G48_reg POWR ) ( G50_reg POWR ) ( G47_reg POWR )
+  ( G49_reg POWR ) ( g2590 POWR ) ( g2589 POWR ) ( g2576 POWR ) ( g2574 POWR )
+  ( G36_reg POWR ) ( g2570 POWR ) ( g2563 POWR ) ( G37_reg POWR )
+  ( G38_reg POWR ) ( g2572 POWR ) ( g2571 POWR ) ( g2568 POWR ) ( g2551 POWR )
+  ( g2542 POWR ) ( G83_reg POWR ) ( g2560 POWR ) ( g2556 POWR ) ( g2557 POWR )
+  ( G74_reg POWR ) ( g2553 POWR ) ( g2549 POWR ) ( g2548 POWR ) ( g2554 POWR )
+  ( G58_reg POWR ) ( G57_reg POWR ) ( G59_reg POWR ) ( G75_reg POWR )
+  ( g2521 POWR ) ( G76_reg POWR ) ( g2524 POWR ) ( g2525 POWR ) ( g2513 POWR )
+  ( g2504 POWR ) ( G77_reg POWR ) ( g2514 POWR ) ( g2503 POWR ) ( g2516 POWR )
+  ( g2507 POWR ) ( G51_reg POWR ) ( G60_reg POWR ) ( G78_reg POWR )
+  ( g2506 POWR ) ( G52_reg POWR ) ( G61_reg POWR ) ( G62_reg POWR )
+  ( G53_reg POWR ) ( g2493 POWR ) ( g2484 POWR ) ( g2473 POWR ) ( G67_reg POWR )
+  ( G68_reg POWR ) ( g2468 POWR ) ( G69_reg POWR ) ( G70_reg POWR ) + USE POWER
+  ;
+END SPECIALNETS
+
+NETS 628 ;
+- n_1664 ( g4035 Y ) ( g4034 A ) ;
+- n_1667 ( g4036 Y ) ( g4033 B ) ;
+- n_1665 ( g4034 Y ) ( g4033 A ) ;
+- n_1659 ( g4030 Y ) ( g4029 A ) ;
+- n_1660 ( g4029 Y ) ( g16 A ) ;
+- n_1654 ( g4027 Y ) ( g4026 A0 ) ;
+- n_1657 ( g4026 Y ) ( g4024 B ) ;
+- n_1653 ( g4025 Y ) ( g4024 A ) ;
+- n_1639 ( g4025 A ) ( g3919_dup Y ) ;
+- n_1631 ( g4035 A ) ( g14_dup Y ) ;
+- n_1624 ( g4012 B ) ( g4009 Y ) ( g4007 A1 ) ;
+- n_1623 ( g4012 A ) ( g4008 Y ) ( g4007 A0 ) ;
+- n_1606 ( g3996 Y ) ( g3995 A ) ;
+- n_1609 ( g3994 Y ) ( g3993 A ) ;
+- n_1612 ( g4009 A ) ( g29 Y ) ;
+- n_1605 ( g3992 Y ) ( g29 A ) ;
+- n_1601 ( g3989 Y ) ( g3987 A1 ) ;
+- n_1589 ( g3980 Y ) ( g3978 B ) ;
+- n_1590 ( g3978 Y ) ( g3977 A ) ;
+- n_1593 ( g3982 Y ) ( g3976 A1 ) ;
+- n_1592 ( g3977 Y ) ( g3976 A0 ) ;
+- n_1581 ( g4027 B ) ( g3975 B ) ( g3972 Y ) ;
+- n_1580 ( g4027 A ) ( g3975 A ) ( g3971 Y ) ;
+- n_1575 ( g3966 Y ) ( g3965 A ) ;
+- n_1574 ( g4008 A ) ( g3963 Y ) ;
+- n_1565 ( g3957 Y ) ( g3955 B ) ;
+- n_1566 ( g3955 Y ) ( g3952 B ) ;
+- n_1562 ( g23 Y ) ( g3952 A ) ;
+- n_1588 ( g3979 Y ) ( g3978 A ) ( g3948 B ) ;
+- n_1555 ( g3949 Y ) ( g3946 B ) ;
+- n_1554 ( g3947 Y ) ( g3946 A ) ;
+- n_1632 ( g4035 B ) ( g4014 Y ) ( g3963 A ) ( g3942 B ) ;
+- n_1658 ( g4024 Y ) ( g3942 A ) ;
+- n_1551 ( g3966 B ) ( g3945 Y ) ( g3941 B ) ;
+- n_1613 ( g3999 Y ) ( g3988 B ) ( g3934 B ) ;
+- n_1611 ( g3993 Y ) ( g29 B ) ( g3934 A ) ;
+- n_1538 ( g4009 B ) ( g3933 Y ) ;
+- n_1666 ( g4037 Y ) ( g4036 A ) ( g3933 B0 ) ;
+- n_1526 ( g3971 A ) ( g33 A ) ( g3924 Y ) ;
+- n_1524 ( g3919_dup B ) ( g4016 B ) ( g1 Y ) ;
+- n_1523 ( g3919_dup A ) ( g4016 A ) ( g3920 Y ) ;
+- n_1521 ( g3921 Y ) ( g3920 A ) ;
+- n_1513 ( g3921 A ) ( g3837_dup Y ) ;
+- n_1604 ( g3987 Y ) ( g3979 B ) ( g3765_dup B ) ;
+- n_1668 ( g4033 Y ) ( g3979 A ) ( g3765_dup A ) ;
+- n_1507 ( g3988 A ) ( g33_dup3910 Y ) ;
+- n_1610 ( g3998 Y ) ( g3993 B ) ( g33_dup3910 B0 ) ;
+- n_1540 ( g3934 Y ) ( g3890 B ) ;
+- n_1460 ( g3949 B ) ( g3869 Y ) ;
+- n_1511 ( g3982 A ) ( g3765_dup Y ) ( g3869 A ) ;
+- n_1442 ( g3972 B ) ( g3857 A ) ( g3855 Y ) ;
+- n_1441 ( g3859 A ) ( g3856 Y ) ( g3855 B0 ) ;
+- n_1433 ( g3959 B ) ( g23 A0 ) ( g3846 Y ) ;
+- n_1431 ( g3851 B ) ( g3847 Y ) ( g3846 A ) ;
+- n_1568 ( g3959 Y ) ( g3844 A ) ;
+- n_1512 ( g3995 B ) ( g3913 Y ) ( g15_dup B ) ;
+- n_1403 ( g3998 A ) ( g3822 Y ) ;
+- n_1402 ( g3823 Y ) ( g3822 B0 ) ;
+- n_1391 ( g3858 B ) ( g3855 A1 ) ( g18 Y ) ;
+- n_1389 ( g3858 A ) ( g3855 A0 ) ( g3812 Y ) ;
+- n_1445 ( g3857 Y ) ( g20 B ) ;
+- n_1533 ( g33 Y ) ( g20 A ) ;
+- n_1388 ( g3999 A ) ( g3992 A1 ) ( g3804 Y ) ;
+- n_1387 ( g20 Y ) ( g3804 A ) ;
+- n_1379 ( g37 Y ) ( g42 A ) ;
+- n_1374 ( g37 B ) ( g3801 Y ) ( g3799 B ) ;
+- n_1377 ( g3802 Y ) ( g3798 B0 ) ;
+- n_1376 ( g3956 B ) ( g41 Y ) ( g3798 A1 ) ;
+- n_1375 ( g3799 Y ) ( g3798 A0 ) ;
+- n_1408 ( g3824 Y ) ( g3797 B ) ;
+- n_1563 ( g3956 Y ) ( g3955 A ) ( g3786 A ) ;
+- n_1364 ( g3790 Y ) ( g3785 B0 ) ;
+- n_1363 ( g3789 Y ) ( g3785 A1 ) ;
+- n_1356 ( g4015 A ) ( g14_dup A ) ( g3783 Y ) ;
+- n_1656 ( g4028 Y ) ( g4026 B0 ) ( g3927 A ) ( g3783 B0 ) ;
+- n_1655 ( g27 Y ) ( g4026 A1 ) ( g41 A ) ( g3783 A1 ) ;
+- n_1355 ( g4015 B ) ( g14_dup B ) ( g3782 Y ) ;
+- n_1638 ( g4016 Y ) ( g3782 A ) ;
+- n_1340 ( g3982 B ) ( g3948 A ) ( g3869 B ) ( g3767 Y ) ;
+- n_1335 ( g3980 B ) ( g3764 Y ) ;
+- n_1330 ( g4018 A ) ( g4017 A ) ( g3759 Y ) ;
+- n_1641 ( g4018 Y ) ( g3756 B ) ;
+- n_1332 ( g3756 Y ) ( g3753 B0 ) ;
+- n_1647 ( g3754 Y ) ( g3753 A1 ) ;
+- n_1646 ( g3755 Y ) ( g3753 A0 ) ;
+- n_1576 ( g3967 Y ) ( g3965 B ) ( g3747 C ) ;
+- n_1644 ( g4020 Y ) ( g3746 A ) ;
+- n_1320 ( g3747 Y ) ( g3743 B0 ) ;
+- n_1317 ( g3744 Y ) ( g3743 A0 ) ;
+- n_1312 ( g3999 B ) ( g3992 A0 ) ( g3740 Y ) ;
+- n_1532 ( g3927 Y ) ( g3740 B ) ;
+- n_1271 ( g3956 A ) ( g3703 Y ) ;
+- n_1373 ( g3800 Y ) ( g3799 A ) ( g3703 C ) ;
+- n_1265 ( g3697 Y ) ( g3696 B ) ;
+- n_1266 ( g3696 Y ) ( g3694 B0 ) ;
+- n_1577 ( g3965 Y ) ( g3964 B ) ( g3745 B ) ( g3694 A0 ) ;
+- n_1627 ( g4007 Y ) ( g3692 B ) ( g3686 A ) ;
+- n_1258 ( g3689 Y ) ( g3685 D ) ;
+- n_1553 ( g3948 Y ) ( g3947 A ) ( g3685 B ) ;
+- n_1254 ( g3686 Y ) ( g3685 A ) ;
+- n_1252 ( g3835 A ) ( g3677 Y ) ;
+- n_1251 ( g3682 Y ) ( g3677 B ) ;
+- n_1261 ( g3692 Y ) ( g3677 A ) ;
+- n_1228 ( g3754 A ) ( g3664 Y ) ;
+- n_1578 ( g3964 Y ) ( g3755 B ) ( g3697 A ) ( g3664 B ) ;
+- n_1518 ( g3917 Y ) ( g3915 A ) ( g3205_dup A0 ) ( g3609 A0 ) ;
+- n_1522 ( g3922 Y ) ( g3920 B ) ( g3824 B ) ( g3822 A0 ) ( g3315_dup B ) ;
+- n_1607 ( g3995 Y ) ( g3994 A ) ( g33_dup3910 A0 ) ( g3824 A ) ( g3315_dup A )
+  ;
+- n_1626 ( g3 A ) ( g4010 Y ) ( g4007 B0 ) ( g9 A ) ;
+- n_1155 ( g4032 A ) ( g4031 A ) ( g4030 B ) ( g8 Y ) ;
+- n_1131 ( g4032 B ) ( g4031 B ) ( g4030 A ) ( g19 Y ) ;
+- n_1509 ( g3208_dup Y ) ( g19 A0 ) ;
+- n_1052 ( g3837_dup B ) ( g3913 B ) ( g3515 Y ) ;
+- n_1051 ( g3516 Y ) ( g3515 A ) ;
+- n_1378 ( g3798 Y ) ( g3511 A ) ( g3507 B ) ;
+- n_1436 ( g3844 Y ) ( g3786 B ) ( g3511 B ) ( g3507 A ) ;
+- n_1047 ( g3509 Y ) ( g3506 B0 ) ;
+- n_1044 ( g3509 A0 ) ( g3507 Y ) ( g3506 A0 ) ;
+- n_1447 ( g3859 Y ) ( g3505 B ) ;
+- n_1446 ( g3837_dup A ) ( g3913 A ) ( g3858 Y ) ( g3505 A ) ;
+- n_1043 ( g3505 Y ) ( g3495 A ) ;
+- n_1587 ( g3975 Y ) ( g3783 A0 ) ( g3483 A ) ;
+- n_995 ( g3924 B ) ( g3516 C ) ( g3465 Y ) ;
+- n_1418 ( g3833 Y ) ( g11 B ) ;
+- n_1061 ( g3812 B ) ( g3525 Y ) ( g3459 A ) ;
+- n_985 ( g3813 B ) ( g3458 Y ) ;
+- n_984 ( g3813 A ) ( g3457 Y ) ;
+- n_1625 ( g4011 Y ) ( g4010 A ) ( g3451 A ) ( g3450 B ) ;
+- n_978 ( g3208_dup A ) ( g3911 A ) ( g3447 Y ) ;
+- n_977 ( g24 Y ) ( g3447 B ) ;
+- n_990 ( g11 Y ) ( g3447 A ) ;
+- n_969 ( g3802 A ) ( g3786 C ) ( g3444 Y ) ;
+- n_934 ( g3412 Y ) ( g3409 B ) ;
+- n_929 ( g3410 Y ) ( g3409 A ) ;
+- n_1362 ( g3786 Y ) ( g3785 A0 ) ( g3407 A ) ;
+- n_926 ( g3408 Y ) ( g3406 B ) ;
+- n_925 ( g3407 Y ) ( g3406 A ) ;
+- n_917 ( g4037 B ) ( g3992 B1 ) ( g3400 Y ) ;
+- n_916 ( g4037 A ) ( g3992 B0 ) ( g3399 Y ) ;
+- n_1550 ( g3966 A ) ( g3942 Y ) ( g3941 A ) ( g3374 A ) ;
+- n_1645 ( g4020 A ) ( g4019 A ) ( g12 Y ) ;
+- n_1552 ( g3941 Y ) ( g3558 A ) ( g12 A ) ;
+- n_889 ( g3374 Y ) ( g3354 A ) ;
+- n_863 ( g3354 Y ) ( g3353 B ) ;
+- n_1275 ( g3706 Y ) ( g3566 A ) ( g3345 A ) ;
+- n_825 ( g4025 B ) ( g3782 B ) ( g3333 Y ) ;
+- n_802 ( g3922 A ) ( g3318 Y ) ;
+- n_776 ( g3318 A ) ( g3294 Y ) ;
+- n_768 ( g33_dup Y ) ( g3287 C ) ;
+- n_767 ( g3288 Y ) ( g3287 A ) ;
+- n_1045 ( g3205_dup A1 ) ( g3609 A1 ) ( g3509 A1 ) ( g3508 Y ) ( g3506 A1 )
+  ( g33_dup B ) ( g3285 B ) ;
+- n_1049 ( g3790 B ) ( g3511 Y ) ( g33_dup A ) ( g3285 A ) ;
+- n_763 ( g3285 Y ) ( g3284 A ) ;
+- n_764 ( g3284 Y ) ( g3283 A ) ;
+- n_769 ( g3287 Y ) ( g3282 B ) ;
+- n_766 ( g3283 Y ) ( g3282 A ) ;
+- n_780 ( g3296 Y ) ( g21 A ) ;
+- n_727 ( g3525 B ) ( g3254 Y ) ;
+- n_1060 ( g3812 A ) ( g3524 Y ) ( g3253 B ) ;
+- n_726 ( g3253 Y ) ( g25 B ) ;
+- n_1390 ( g3813 Y ) ( g18 A ) ( g3254 A ) ( g25 A ) ;
+- n_899 ( g3856 B ) ( g3516 D ) ( g3388 Y ) ( g3246 C ) ;
+- n_898 ( g3856 A ) ( g3516 B ) ( g3387 Y ) ( g3246 B ) ;
+- n_1600 ( g3988 Y ) ( g3987 A0 ) ( g3241 A ) ;
+- n_702 ( g3759 B ) ( g3237 Y ) ;
+- n_699 ( g3399 A ) ( g3353 A ) ( g3233 Y ) ;
+- n_698 ( g3234 Y ) ( g3233 B ) ;
+- n_682 ( g3444 A ) ( g3224 Y ) ;
+- n_678 ( g3959 A ) ( g23 A1 ) ( g3851 A ) ( g26_dup Y ) ;
+- n_674 ( g3823 B ) ( g3333 A ) ( g22 Y ) ;
+- n_664 ( g3208_dup B ) ( g3911 B ) ( g3210 Y ) ;
+- n_980 ( g3451 Y ) ( g3210 B ) ;
+- n_1164 ( g3205_dup Y ) ( g3204 A ) ;
+- n_660 ( g3524 A1 ) ( g3203 Y ) ;
+- n_1669 ( g47_dup Y ) ( g3203 A ) ;
+- n_1671 ( g16 Y ) ( g3200 B ) ;
+- n_659 ( g3524 A0 ) ( g3199 Y ) ;
+- n_658 ( g3202 Y ) ( g3199 B0 ) ;
+- n_657 ( g3201 Y ) ( g3199 A1 ) ;
+- n_656 ( g3200 Y ) ( g3199 A0 ) ;
+- n_1670 ( g3200 A ) ( g3194 Y ) ;
+- n_1171 ( g3613 Y ) ( g43 A ) ;
+- n_661 ( g3524 B0 ) ( g3204 Y ) ( g40 A ) ;
+- n_634 ( g47_dup A ) ( g3613 A ) ( g48 Y ) ;
+- n_631 ( g3202 A ) ( g43 B ) ( g46 Y ) ;
+- n_841 ( g3851 Y ) ( g3336 A ) ( g3169 B ) ;
+- n_1432 ( g3848 Y ) ( g3846 B ) ( g3169 A ) ;
+- n_577 ( g3465 A ) ( g31 Y ) ;
+- n_564 ( g21 Y ) ( g3146 A ) ;
+- n_1635 ( g4015 Y ) ( g3963 B ) ( g3133 A ) ;
+- n_905 ( g37 A ) ( g3799 C ) ( g3495 Y ) ( g32 B ) ( g3124 A ) ;
+- n_1372 ( g3797 Y ) ( g3119 A ) ;
+- n_51 ( g3746 B ) ( g2980 Y ) ;
+- n_0 ( g3847 A ) ( g22 A ) ( g2925 Y ) ;
+- n_26 ( g3210 C ) ( g2967 Y ) ;
+- n_183 ( g4031 C ) ( g3194 B ) ( g2961 Y ) ;
+- n_10 ( g3388 A ) ( g3005 Y ) ;
+- blif_reset_net ( PIN blif_reset_net ) ( g2975 A ) ;
+- n_505 ( g3924 A ) ( g3801 A ) ( g3516 A ) ( g32 A ) ( g2900 Y ) ;
+- n_11 ( g3004 Y ) ( g2900 A ) ;
+- n_80 ( g3210 A ) ( g2895 Y ) ;
+- n_979 ( g3450 Y ) ( g2895 A ) ;
+- n_82 ( g3958 A ) ( g2894 Y ) ;
+- G0 ( PIN G0 ) ( g8 B ) ( g2883 A ) ;
+- n_1262 ( g3693 Y ) ( g2876 B ) ;
+- n_1455 ( g3982 C ) ( g3866 Y ) ( g2875 B ) ;
+- n_862 ( g50 Y ) ( g2873 B ) ;
+- n_23 ( g2912 Y ) ( g2872 B ) ;
+- n_31 ( g2914 Y ) ( g2872 A ) ;
+- n_30 ( g2913 Y ) ( g2871 A ) ;
+- n_95 ( g2931 Y ) ( g2891 B ) ( g2890 B1 ) ;
+- n_86 ( g2971 Y ) ( g2881 A0 ) ( g2880 A0 ) ( g2891 S0 ) ( g2890 A0 ) ;
+- G1 ( PIN G1 ) ( g2882 A ) ( g2898 A ) ;
+- n_14 ( g2962 Y ) ( g2879 D ) ;
+- n_69 ( g2910 Y ) ( g2859 A ) ;
+- G3 ( PIN G3 ) ( g2883 B ) ( g2903 A ) ;
+- n_576 ( g3152 Y ) ( g31 B ) ( g2888 A ) ;
+- n_114 ( g3972 A ) ( g2984 Y ) ( g2888 S0 ) ( g2885 A ) ;
+- n_47 ( g4014 B ) ( g3890 A ) ( g2917 Y ) ( g2884 B ) ;
+- n_60 ( g2983 Y ) ( g2884 A ) ;
+- n_89 ( g2876 Y ) ( g2865 B ) ;
+- n_91 ( g2875 Y ) ( g2865 A ) ;
+- n_96 ( g2891 Y ) ( g2864 A ) ;
+- n_85 ( g2881 Y ) ( g2862 A ) ;
+- n_87 ( g2880 Y ) ( g2861 A ) ;
+- n_99 ( g2890 Y ) ( g2860 A ) ;
+- n_101 ( g2906 Y ) ( G35_reg D ) ;
+- G13 ( PIN G13 ) ( g2911 A ) ( g2867 B ) ;
+- G86 ( G86_reg QN ) ( g2867 A ) ;
+- n_93 ( g2872 Y ) ( g2857 B ) ;
+- n_94 ( g2871 Y ) ( g2856 B ) ;
+- n_1342 ( g3977 B ) ( g3768 Y ) ( g2856 A ) ;
+- n_107 ( g2859 Y ) ( g2851 A ) ;
+- n_122 ( g2864 Y ) ( G94_reg D ) ;
+- n_127 ( g2860 Y ) ( G87_reg D ) ;
+- n_125 ( g2861 Y ) ( G88_reg D ) ;
+- n_123 ( g2862 Y ) ( G89_reg D ) ;
+- n_119 ( g2879 Y ) ( g2877 A ) ( g2844 A0 ) ;
+- n_92 ( g2873 Y ) ( g2842 B ) ;
+- n_131 ( g2856 Y ) ( g2842 A ) ;
+- n_116 ( g2885 Y ) ( g2845 A0 ) ;
+- G22 ( g2851 B ) ( G22_reg Q ) ;
+- n_121 ( g2865 Y ) ( g2836 B ) ;
+- n_137 ( g2842 Y ) ( g2836 A ) ;
+- G5 ( PIN G5 ) ( g2887 B ) ( g2915 A ) ;
+- n_143 ( g3958 B ) ( g2821 Y ) ;
+- n_129 ( g2857 Y ) ( g2821 D ) ;
+- n_102 ( g2892 Y ) ( g2821 C ) ;
+- n_109 ( g2893 Y ) ( g2821 B ) ;
+- n_106 ( g2874 Y ) ( g2821 A ) ;
+- G92 ( g27 A ) ( g3996 A ) ( g3921 B ) ( g15_dup A ) ( g3804 B ) ( g3495 B )
+  ( g2984 A ) ( G92_reg Q ) ;
+- n_140 ( g2845 Y ) ( G92_reg D ) ;
+- n_147 ( g3682 A1 ) ( g2904 Y ) ;
+- G15 ( PIN G15 ) ( g2923 A ) ( g2844 A1 ) ( g2822 A1 ) ;
+- n_141 ( g2844 Y ) ( G22_reg D ) ( g2822 A0 ) ;
+- G35 ( g2906 A ) ( g2888 B ) ( G35_reg Q ) ( g2858 B0 ) ;
+- n_117 ( g2884 Y ) ( g2858 A0 ) ;
+- n_1519 ( g3918 Y ) ( g3917 A ) ( g2843 A ) ( g2840 A ) ;
+- n_1156 ( g3954 B ) ( g3205_dup B0 ) ( g3609 B0 ) ( g9 Y ) ( g19 B0 )
+  ( g3018 A ) ( g2839 B0 ) ;
+- n_691 ( g3229 Y ) ( g2839 A1 ) ;
+- n_1520 ( g3918 A ) ( g3911 Y ) ( g2839 A0 ) ;
+- n_135 ( g2851 Y ) ( g2844 B0 ) ( g2804 B ) ;
+- n_150 ( g2822 Y ) ( g2804 A ) ;
+- n_132 ( g2866 Y ) ( g2852 B0 ) ;
+- n_1595 ( g3983 Y ) ( g3976 B0 ) ( g2818 A ) ;
+- n_54 ( g2946 Y ) ( g2784 B ) ;
+- G4 ( PIN G4 ) ( g2882 B ) ( g2828 B ) ;
+- n_153 ( g2843 Y ) ( g2828 A ) ;
+- n_174 ( g48 A ) ( g46 A ) ( g2827 Y ) ;
+- n_1629 ( g4028 A ) ( g3 Y ) ( g3987 B0 ) ( g8 A ) ( g3022 A ) ( g2898 B )
+  ( g2903 B ) ( g2828 S0 ) ( g2827 B1 ) ;
+- G2 ( PIN G2 ) ( g2887 A ) ( g2827 B0 ) ;
+- n_100 ( g3022 Y ) ( g2827 A1 ) ;
+- n_155 ( g2840 Y ) ( g2827 A0 ) ;
+- n_176 ( g3194 A ) ( g2824 Y ) ;
+- n_1663 ( g4032 Y ) ( g3610 A ) ( g2824 A ) ;
+- n_24 ( g2969 Y ) ( g2816 A1 ) ;
+- n_1419 ( g3834 Y ) ( g2815 B1 ) ;
+- n_149 ( g49 B ) ( g2836 Y ) ( g2835 A ) ( g2816 A0 ) ( g2815 A0 ) ;
+- n_223 ( g3202 B ) ( g3195 B ) ( g2802 Y ) ;
+- n_166 ( g2898 Y ) ( g2823 A ) ( g2802 B ) ;
+- n_165 ( g2839 Y ) ( g2823 B ) ( g2802 A ) ;
+- n_161 ( g2804 Y ) ( g2798 B0 ) ;
+- G701BF ( PIN G701BF ) ( g2923 Y ) ( g2859 C ) ( g2798 A1 ) ;
+- n_158 ( g3994 B ) ( g33_dup3910 A1 ) ( g3822 A1 ) ( g3400 A ) ( g2941 Y )
+  ( g2885 B ) ( g2884 S0 ) ( g2886 A ) ( g2790 A1 ) ;
+- n_1594 ( g49 Y ) ( g3983 A ) ( g3946 C ) ( g3682 B0 ) ( g2814 A ) ( g2790 A0 )
+  ;
+- G16 ( PIN G16 ) ( g2778 C ) ;
+- n_59 ( g2909 Y ) ( g2778 A ) ;
+- G727 ( PIN G727 ) ( g2800 Y ) ;
+- n_168 ( g2818 Y ) ( g2800 A ) ;
+- n_139 ( g2867 Y ) ( g2866 A ) ( g2845 A1 ) ( g2846 A1 ) ;
+- n_159 ( g2886 Y ) ( g2846 A0 ) ;
+- n_187 ( g2911 Y ) ( G86_reg D ) ( g2845 B0 ) ( g2846 B0 ) ( g2841 B ) ;
+- n_162 ( g2852 Y ) ( g2841 A ) ;
+- n_1163 ( g3609 Y ) ( g2826 B ) ;
+- n_191 ( g3204 B ) ( g2903 Y ) ( g2826 A ) ;
+- n_193 ( g3195 A ) ( g2811 Y ) ;
+- n_167 ( g2823 Y ) ( g2811 A ) ;
+- n_177 ( g3685 C ) ( g2835 Y ) ( g2816 B0 ) ( g2815 B0 ) ( g2801 A0 ) ;
+- n_196 ( g3510 B0 ) ( g2814 Y ) ( g2813 A ) ( g2796 B0 ) ;
+- n_134 ( g3510 A0 ) ( g3018 Y ) ( g3014 A ) ( g2858 B1 ) ( g2886 B )
+  ( g2814 B ) ( g2796 A1 ) ;
+- n_198 ( g4028 B ) ( g2777 Y ) ;
+- n_197 ( g3954 A ) ( g2778 Y ) ( g2777 A ) ;
+- n_201 ( g3525 A ) ( g2806 Y ) ;
+- n_200 ( g3457 A ) ( g2828 Y ) ( g2806 A ) ;
+- n_182 ( g2813 Y ) ( g2787 A ) ;
+- n_179 ( g2816 Y ) ( g2786 A ) ;
+- n_181 ( g2815 Y ) ( g2785 A ) ;
+- G8 ( PIN G8 ) ( g11 A ) ( g3451 B ) ( g2769 B ) ;
+- G9 ( PIN G9 ) ( g3510 A1 ) ( g2768 B ) ;
+- G11 ( PIN G11 ) ( g2971 A ) ( g2881 B0 ) ( g2880 B0 ) ( g2890 B0 ) ( g2767 B )
+  ;
+- G10 ( PIN G10 ) ( g2885 S0 ) ( g2886 S0 ) ( g2852 A0 ) ( g2766 B ) ;
+- n_213 ( g2790 Y ) ( g2770 S0 ) ( g2769 S0 ) ( g2768 S0 ) ( g2767 S0 )
+  ( g2766 S0 ) ( g2765 S0 ) ;
+- G7 ( PIN G7 ) ( g2796 A0 ) ( g2765 B ) ;
+- G23 ( g2822 B0 ) ( g2798 A0 ) ( G23_reg Q ) ;
+- n_195 ( g2797 Y ) ( G23_reg D ) ;
+- G90 ( g4011 A ) ( g11 S0 ) ( G90_reg Q ) ;
+- n_189 ( g2841 Y ) ( G90_reg D ) ;
+- G65 ( g2969 A ) ( g2801 A1 ) ( G65_reg QN ) ;
+- n_194 ( g2801 Y ) ( G65_reg D ) ;
+- n_188 ( g2846 Y ) ( G91_reg D ) ;
+- n_219 ( g3203 B ) ( g40 B ) ( g2803 Y ) ;
+- n_192 ( g2826 Y ) ( g2803 A ) ;
+- n_1661 ( g4031 Y ) ( g16 B ) ( g2799 B ) ;
+- n_1165 ( g3610 Y ) ( g2799 A ) ;
+- G66 ( g2909 B ) ( g2816 B1 ) ( G66_reg Q ) ;
+- n_205 ( g2786 Y ) ( G66_reg D ) ;
+- n_1420 ( g3834 A ) ( g3833 A ) ( g3450 A ) ( G64_reg Q ) ;
+- n_206 ( g2785 Y ) ( G64_reg D ) ;
+- n_650 ( g3201 A ) ( g3195 Y ) ( g2782 A ) ;
+- n_84 ( g2882 Y ) ( g2772 B ) ;
+- n_98 ( g2887 Y ) ( g2771 B ) ;
+- n_120 ( g2877 Y ) ( g2779 B ) ( g2758 D ) ;
+- n_208 ( g2798 Y ) ( g2797 A ) ( g2779 A ) ( g2758 A ) ;
+- G80 ( g2914 A ) ( g2892 A ) ( g2765 A ) ( G80_reg Q ) ;
+- n_215 ( g2765 Y ) ( G80_reg D ) ;
+- G84 ( g24 A ) ( g2766 A ) ( G84_reg Q ) ;
+- n_214 ( g2766 Y ) ( G84_reg D ) ;
+- G82 ( g2912 B ) ( g2874 A ) ( g2768 A ) ( G82_reg Q ) ;
+- n_211 ( g2768 Y ) ( G82_reg D ) ;
+- G79 ( g2914 B ) ( g2893 A ) ( g2770 A ) ( G79_reg Q ) ;
+- n_209 ( g2770 Y ) ( G79_reg D ) ;
+- G85 ( g2967 A ) ( g2767 A ) ( G85_reg Q ) ;
+- n_212 ( g2767 Y ) ( G85_reg D ) ;
+- G81 ( g2912 A ) ( g2894 A ) ( g2769 A ) ( G81_reg Q ) ;
+- n_210 ( g2769 Y ) ( G81_reg D ) ;
+- n_231 ( g2787 Y ) ( g2772 S0 ) ( g2771 S0 ) ( g2773 S0 ) ;
+- n_83 ( g2883 Y ) ( g2773 B ) ;
+- n_226 ( g3998 B ) ( g23 B0 ) ( g3333 B ) ( g2761 Y ) ( g2756 B0 ) ;
+- G6 ( PIN G6 ) ( g2770 B ) ( g2756 A0 ) ;
+- n_1560 ( g3954 Y ) ( g3844 B ) ( g41 B ) ( g2761 A ) ( g2744 S0 ) ;
+- n_115 ( g2888 Y ) ( g2744 A ) ;
+- n_640 ( g40 Y ) ( g2781 A ) ;
+- G73 ( g2913 A ) ( g2875 A ) ( g2771 A ) ( G73_reg Q ) ;
+- n_232 ( g2771 Y ) ( G73_reg D ) ;
+- G71 ( g2873 A ) ( g2871 B ) ( g2773 A ) ( G71_reg Q ) ;
+- n_236 ( g2773 Y ) ( G71_reg D ) ;
+- n_234 ( g2758 Y ) ( g2737 B ) ;
+- n_227 ( g2760 Y ) ( g2737 A ) ;
+- G72 ( g2913 B ) ( g2876 A ) ( g2772 A ) ( G72_reg Q ) ;
+- n_230 ( g2772 Y ) ( G72_reg D ) ;
+- n_237 ( g2755 Y ) ( g2740 B0 ) ;
+- n_8 ( g2963 Y ) ( g2802 C ) ( g2759 B ) ( g2740 A1 ) ;
+- n_233 ( g2779 Y ) ( g2760 A ) ( g2759 A ) ( g2758 B ) ( g2740 A0 ) ;
+- n_172 ( g2784 Y ) ( g2734 C ) ;
+- n_142 ( g2915 Y ) ( g2734 B ) ;
+- n_229 ( g2782 Y ) ( g2733 C ) ;
+- n_222 ( g2799 Y ) ( g2733 B ) ;
+- G42 ( g4029 B ) ( g3610 B ) ( g2961 A ) ( g2779 C ) ( g2760 C ) ( G42_reg Q )
+  ;
+- n_243 ( g2737 Y ) ( G42_reg D ) ;
+- n_988 ( g3459 Y ) ( g3253 A ) ( g2757 C ) ;
+- n_241 ( g2781 Y ) ( g2757 B ) ;
+- n_641 ( g43 Y ) ( g2757 A ) ;
+- n_258 ( g3412 A0 ) ( g2730 Y ) ;
+- n_245 ( g2743 Y ) ( g2730 B ) ;
+- n_1564 ( g3958 Y ) ( g3957 A ) ( g3444 B ) ( g2784 A ) ( g2778 B ) ( g2730 A )
+  ;
+- G43 ( g2963 A ) ( g2811 B ) ( G43_reg Q ) ;
+- n_247 ( g2740 Y ) ( G43_reg D ) ;
+- n_249 ( g2738 Y ) ( g2735 B0 ) ;
+- n_238 ( g46 B ) ( g2926 Y ) ( g2754 B ) ( g2735 A1 ) ;
+- n_239 ( g2759 Y ) ( g2755 B ) ( g2754 A ) ( g2735 A0 ) ;
+- n_180 ( g2952 Y ) ( g2883 S0 ) ( g2882 S0 ) ( g2887 S0 ) ( g2815 A1 )
+  ( g2732 B ) ;
+- n_248 ( g2796 Y ) ( g2795 A ) ( g2760 B ) ( g2758 C ) ( g2755 A ) ( g2738 A )
+  ( g2731 A ) ;
+- n_1516 ( g3915 Y ) ( g2726 B ) ;
+- n_251 ( g2744 Y ) ( g2743 A ) ( g2734 A ) ( g2733 A ) ( g2732 A ) ( g2726 A )
+  ;
+- n_252 ( g2734 Y ) ( g2724 A ) ;
+- n_261 ( g2736 Y ) ( g2731 B ) ( g2727 B ) ;
+- n_264 ( g2726 Y ) ( g2725 A ) ;
+- n_256 ( g2757 Y ) ( g2721 B ) ;
+- n_253 ( g2733 Y ) ( g2721 A ) ;
+- G44 ( g47_dup B ) ( g3613 B ) ( g2926 A ) ( G44_reg Q ) ;
+- n_259 ( g2735 Y ) ( G44_reg D ) ;
+- n_262 ( g2731 Y ) ( g2723 B0 ) ;
+- n_18 ( g3204 C ) ( g2955 Y ) ( g2736 B ) ( g2723 A1 ) ;
+- n_250 ( g2754 Y ) ( g2738 B ) ( g2736 A ) ( g2723 A0 ) ;
+- n_260 ( g2732 Y ) ( g2719 A ) ;
+- n_202 ( g2795 Y ) ( g2717 B ) ;
+- n_268 ( g2727 Y ) ( g2717 A ) ;
+- G729 ( PIN G729 ) ( G95_reg Q ) ;
+- n_269 ( g2725 Y ) ( G95_reg D ) ;
+- G45 ( g2955 A ) ( g2803 B ) ( G45_reg Q ) ;
+- n_272 ( g2723 Y ) ( G45_reg D ) ;
+- G63 ( g2952 A ) ( G63_reg QN ) ;
+- n_273 ( g2719 Y ) ( G63_reg D ) ;
+- G46 ( g3458 A ) ( g2806 B ) ( g2727 A ) ( G46_reg Q ) ;
+- n_274 ( g2717 Y ) ( G46_reg D ) ;
+- n_554 ( g25 Y ) ( g3246 A ) ( g3138 A ) ( g2708 B ) ;
+- n_617 ( g3387 A ) ( g3182 Y ) ( g2708 A ) ;
+- n_265 ( g2756 Y ) ( g2724 B ) ( g2700 B1 ) ;
+- n_152 ( g2858 Y ) ( g2700 B0 ) ;
+- n_270 ( g2721 Y ) ( g2700 A2 ) ;
+- n_550 ( g3138 Y ) ( g2707 B ) ( g2705 A ) ( g2700 A1 ) ;
+- n_266 ( g2724 Y ) ( g2700 A0 ) ;
+- n_126 ( g2991 Y ) ( g2864 B ) ( g2862 B ) ( g2861 B ) ( g2860 B ) ( g2785 B )
+  ( g2699 B ) ;
+- n_279 ( g2707 Y ) ( g2699 A ) ;
+- G94 ( g2931 A ) ( G94_reg Q ) ( g2692 B ) ;
+- n_718 ( g3246 Y ) ( g2692 A ) ( g2691 A ) ;
+- G726 ( PIN G726 ) ( G93_reg Q ) ;
+- n_284 ( g2700 Y ) ( G93_reg D ) ;
+- n_73 ( g3182 B ) ( g2949 Y ) ( g2696 B2 ) ;
+- n_283 ( g2708 Y ) ( g2706 A ) ( g2705 B ) ( g2704 A ) ( g2696 B0 ) ;
+- n_282 ( g2705 Y ) ( g2696 A0 ) ;
+- n_280 ( g2706 Y ) ( g2698 B ) ;
+- n_286 ( g2701 Y ) ( g2698 A ) ;
+- n_285 ( g2704 Y ) ( g2702 A ) ( g2701 B ) ( g2697 A0 ) ;
+- n_297 ( g2702 Y ) ( g2697 B0 ) ( g2682 A ) ;
+- G24 ( g3182 A ) ( g2707 A ) ( g2696 A2 ) ( G24_reg Q ) ;
+- n_287 ( g2699 Y ) ( G24_reg D ) ;
+- G25 ( g2949 A ) ( G25_reg Q ) ;
+- n_292 ( g2696 Y ) ( G25_reg D ) ;
+- G26 ( g3387 B ) ( g2706 B ) ( g2704 B ) ( G26_reg Q ) ;
+- n_296 ( g2698 Y ) ( G26_reg D ) ;
+- n_298 ( g2697 Y ) ( g2681 A ) ;
+- n_299 ( g2682 Y ) ( g2678 B ) ;
+- n_290 ( g2691 Y ) ( g2678 A ) ;
+- n_530 ( g3124 Y ) ( g2687 A ) ( g2684 A0 ) ;
+- n_305 ( g2687 Y ) ( g2684 B0 ) ( g2670 A ) ;
+- G27 ( g3005 A ) ( g2702 B ) ( g2697 A1 ) ( G27_reg Q ) ;
+- n_301 ( g2681 Y ) ( G27_reg D ) ;
+- G28 ( g3388 B ) ( g2682 B ) ( G28_reg Q ) ;
+- n_304 ( g2678 Y ) ( G28_reg D ) ;
+- n_1380 ( g42 Y ) ( g3706 B ) ( g3703 A ) ( g2675 A ) ( g2674 B ) ;
+- n_306 ( g2684 Y ) ( g2666 A ) ;
+- n_308 ( g2670 Y ) ( g2663 B ) ;
+- n_300 ( g2683 Y ) ( g2663 A ) ;
+- G30 ( g2900 B ) ( g2670 B ) ( G30_reg Q ) ;
+- n_313 ( g2663 Y ) ( G30_reg D ) ;
+- G29 ( g3004 A ) ( g2687 B ) ( g2684 A1 ) ( G29_reg Q ) ;
+- n_312 ( g2666 Y ) ( G29_reg D ) ;
+- n_311 ( g2674 Y ) ( g2672 B0 ) ;
+- n_583 ( g35 Y ) ( g2672 A1 ) ;
+- n_584 ( g32 Y ) ( g2683 A ) ( g2672 A0 ) ;
+- G31 ( g3801 B ) ( g35 A ) ( g31 A ) ( G31_reg Q ) ;
+- n_315 ( g2672 Y ) ( G31_reg D ) ;
+- n_310 ( g2675 Y ) ( g2664 B ) ;
+- n_318 ( g2671 Y ) ( g2664 A ) ;
+- n_851 ( g3345 Y ) ( g2667 A ) ( g2661 A ) ;
+- n_289 ( g2692 Y ) ( g2643 B0 ) ;
+- G87 ( g2880 B1 ) ( g2890 A1 ) ( G87_reg Q ) ( g2643 A1 ) ;
+- n_510 ( g3110 Y ) ( g2643 A0 ) ;
+- G32 ( g3799 D ) ( g3706 A ) ( g3703 B ) ( g31 D ) ( g2675 B ) ( G32_reg Q ) ;
+- n_325 ( g2664 Y ) ( G32_reg D ) ;
+- n_324 ( g2667 Y ) ( g2660 B ) ;
+- n_539 ( g3130 Y ) ( g2638 A ) ;
+- n_1017 ( g3483 Y ) ( g3110 A ) ( g2656 B ) ;
+- n_326 ( g2661 Y ) ( g2656 A ) ;
+- n_1423 ( g15_dup Y ) ( g3836 A ) ( g21 B ) ( g3130 A ) ( g2641 B ) ;
+- n_3 ( g3836 B ) ( g2958 Y ) ( g2641 A ) ;
+- n_333 ( g2660 Y ) ( g2657 B0 ) ;
+- n_9 ( g2929 Y ) ( g2657 A1 ) ;
+- n_1109 ( g3566 Y ) ( g2671 B ) ( g2657 A0 ) ;
+- n_335 ( g2656 Y ) ( g2644 A ) ;
+- n_1167 ( g3611 Y ) ( g2632 A ) ;
+- G91 ( g4034 B ) ( g4008 B ) ( g3989 A ) ( g3945 A ) ( g3933 A1 ) ( g1 A )
+  ( g3797 A ) ( g3374 B ) ( g26_dup B ) ( g2941 A ) ( G91_reg Q ) ( g2630 B ) ;
+- n_1168 ( g2635_dup Y ) ( g2630 A ) ;
+- n_334 ( g2638 Y ) ( g2615 A0 ) ;
+- G33 ( g3800 B ) ( g3345 B ) ( g31 C ) ( g2929 A ) ( G33_reg Q ) ;
+- n_340 ( g2657 Y ) ( G33_reg D ) ;
+- n_761 ( g3315_dup Y ) ( g26_dup A ) ( g3128 A ) ( g2610 A ) ;
+- n_13 ( g2924 Y ) ( g2629 A ) ;
+- n_103 ( g2988 Y ) ( g2879 C ) ( g2626 B ) ;
+- n_104 ( g2919 Y ) ( g2910 B ) ( g2879 B ) ( g2625 A ) ;
+- n_105 ( g2977 Y ) ( g2910 A ) ( g2879 A ) ( g2624 A ) ;
+- G12 ( PIN G12 ) ( g2623 A ) ;
+- n_1175 ( g2630 Y ) ( g2626 A ) ( g2625 B ) ( g2624 B ) ( g2623 B ) ( g2620 B )
+  ( g2619 A ) ( g2618 B ) ( g2617 B ) ;
+- n_560 ( g3146 Y ) ( g2616 A ) ( g2615 A1 ) ( g2612 A0 ) ;
+- n_367 ( g2616 Y ) ( g2612 B0 ) ( g2592 A ) ;
+- G34 ( g3800 A ) ( g3152 A ) ( g2661 B ) ( G34_reg Q ) ;
+- n_343 ( g2644 Y ) ( G34_reg D ) ;
+- n_353 ( g2636 Y ) ( g2629 B ) ( g2628 B ) ;
+- n_356 ( g2632 Y ) ( g2631 A ) ( g2627 A ) ( g2628 A ) ;
+- G39 ( g3296 A ) ( g3294 B ) ( g2638 B ) ( G39_reg Q ) ;
+- n_347 ( g2615 Y ) ( G39_reg D ) ;
+- n_352 ( g2631 Y ) ( g2611 B ) ;
+- n_354 ( g2629 Y ) ( g2611 A ) ;
+- n_374 ( g2628 Y ) ( g2614 B0 ) ;
+- n_1425 ( g3836 Y ) ( g2635_dup A ) ( g3611 A ) ( g2636 A ) ( g2627 B )
+  ( g2614 A0 ) ;
+- n_338 ( g2641 Y ) ( g2613 B ) ;
+- n_357 ( g2627 Y ) ( g2613 A ) ;
+- n_291 ( g49 A ) ( g3756 A ) ( g3689 B0 ) ( g2997 Y ) ( g2719 B ) ( g2700 B2 )
+  ( g2696 B1 ) ( g2696 A1 ) ( g2666 B ) ( g2660 A ) ( g2644 B ) ( g2588 B ) ;
+- n_368 ( g2612 Y ) ( g2588 A ) ;
+- n_372 ( g2592 Y ) ( g2583 B ) ;
+- n_350 ( g2610 Y ) ( g2583 A ) ;
+- n_362 ( g2620 Y ) ( g2605 A1 ) ;
+- n_358 ( g2626 Y ) ( g2605 A0 ) ;
+- n_360 ( g2624 Y ) ( g2604 A1 ) ;
+- n_365 ( g2618 Y ) ( g2604 A0 ) ;
+- n_359 ( g2625 Y ) ( g2603 A1 ) ;
+- n_363 ( g2619 Y ) ( g2603 A0 ) ;
+- n_361 ( g2623 Y ) ( g2602 A1 ) ;
+- n_366 ( g2617 Y ) ( g2602 A0 ) ;
+- G56 ( g2635_dup B ) ( g3611 B ) ( g2924 A ) ( G56_reg QN ) ;
+- n_375 ( g2611 Y ) ( G56_reg D ) ;
+- G40 ( g3294 A ) ( g2616 B ) ( g2612 A1 ) ( G40_reg Q ) ;
+- n_380 ( g2588 Y ) ( G40_reg D ) ;
+- G55 ( g2636 B ) ( g2614 A1 ) ( G55_reg QN ) ;
+- n_376 ( g2614 Y ) ( G55_reg D ) ;
+- G54 ( g2958 A ) ( G54_reg QN ) ;
+- n_377 ( g2613 Y ) ( G54_reg D ) ;
+- n_523 ( g3119 Y ) ( g2597 A ) ( g2593 A0 ) ;
+- n_389 ( g2597 Y ) ( g2593 B0 ) ( g2577 A ) ;
+- G41 ( g3922 B ) ( g2592 B ) ( G41_reg Q ) ;
+- n_381 ( g2583 Y ) ( G41_reg D ) ;
+- G48 ( g2919 A ) ( g2618 A ) ( G48_reg QN ) ;
+- n_383 ( g2604 Y ) ( G48_reg D ) ;
+- G50 ( g2962 A ) ( g2859 B ) ( g2620 A ) ( G50_reg QN ) ;
+- n_382 ( g2605 Y ) ( G50_reg D ) ;
+- G47 ( g2977 A ) ( g2617 A ) ( G47_reg QN ) ;
+- n_387 ( g2602 Y ) ( G47_reg D ) ;
+- G49 ( g2988 A ) ( g2859 D ) ( g2619 B ) ( G49_reg QN ) ;
+- n_385 ( g2603 Y ) ( G49_reg D ) ;
+- n_348 ( g2993 Y ) ( g2991 A ) ( g2691 B ) ( g2683 B ) ( g2610 B ) ( g2589 B )
+  ;
+- n_839 ( g3336 Y ) ( g2590 A ) ( g2589 A ) ;
+- n_390 ( g2593 Y ) ( g2576 A ) ;
+- n_391 ( g2577 Y ) ( g2574 B ) ;
+- n_394 ( g2589 Y ) ( g2574 A ) ;
+- G36 ( g2925 A ) ( g2597 B ) ( g2593 A1 ) ( G36_reg Q ) ;
+- n_396 ( g2576 Y ) ( G36_reg D ) ;
+- n_386 ( g3001 Y ) ( g2906 B ) ( g2801 B0 ) ( g2786 B ) ( g2681 B ) ( g2674 A )
+  ( g2615 B0 ) ( g2605 B0 ) ( g2604 B0 ) ( g2603 B0 ) ( g2602 B0 ) ( g2576 B )
+  ( g2570 B0 ) ;
+- n_603 ( g3169 Y ) ( g2570 A1 ) ;
+- n_393 ( g2590 Y ) ( g2570 A0 ) ;
+- n_1567 ( g3952 Y ) ( g3412 B0 ) ( g3408 A1 ) ( g3393 B ) ( g2563 A ) ;
+- G37 ( g3847 B ) ( g22 B ) ( g2577 B ) ( G37_reg Q ) ;
+- n_397 ( g2574 Y ) ( G37_reg D ) ;
+- G38 ( g3848 A ) ( g22 C ) ( g2744 B ) ( g2590 B ) ( G38_reg Q ) ;
+- n_402 ( g2570 Y ) ( G38_reg D ) ;
+- n_911 ( g3393 Y ) ( g2551 B ) ;
+- n_1046 ( g3790 A ) ( g3510 Y ) ( g3509 B0 ) ( g3410 A ) ( g3407 B )
+  ( g3287 B ) ( g3283 B ) ( g2551 A ) ;
+- n_411 ( g2551 Y ) ( g2542 B0 ) ;
+- n_692 ( g19 A1 ) ( g3230 Y ) ( g2542 A1 ) ;
+- n_405 ( g2563 Y ) ( g2542 A0 ) ;
+- G83 ( g3412 A1 ) ( g2946 A ) ( g2909 A ) ( g2726 C ) ( G83_reg Q ) ;
+- n_935 ( g3409 Y ) ( G83_reg D ) ;
+- n_407 ( g2572 Y ) ( g2571 A ) ( g2560 B ) ;
+- n_709 ( g4014 A ) ( g17 Y ) ( g2560 A ) ;
+- n_408 ( g2571 Y ) ( g2556 B ) ;
+- n_1484 ( g3890 Y ) ( g2557 B ) ;
+- G74 ( g3408 A0 ) ( g3393 A ) ( g3230 A ) ( g3224 B ) ( g2893 B ) ( G74_reg Q )
+  ;
+- n_418 ( g2542 Y ) ( G74_reg D ) ;
+- n_422 ( g2556 Y ) ( g2553 B0 ) ;
+- n_543 ( g3133 Y ) ( g2572 B ) ( g2553 A0 ) ;
+- n_1637 ( g2560 Y ) ( g2549 B ) ;
+- n_421 ( g2568 Y ) ( g2556 A ) ( g2549 A ) ;
+- n_1100 ( g3759 A ) ( g3558 Y ) ( g2548 B ) ;
+- n_876 ( g15 Y ) ( g12 B ) ( g2548 A ) ;
+- n_424 ( g2557 Y ) ( g2554 B0 ) ;
+- n_708 ( g3241 Y ) ( g2568 B ) ( g2554 A0 ) ;
+- G58 ( g3823 A ) ( g3740 A ) ( g17 A ) ( G58_reg QN ) ;
+- n_430 ( g2549 Y ) ( G58_reg D ) ;
+- G57 ( g2572 A ) ( g2553 A1 ) ( G57_reg QN ) ;
+- n_429 ( g2553 Y ) ( G57_reg D ) ;
+- G59 ( g3989 B ) ( g3933 A0 ) ( g2917 A ) ( g2554 A1 ) ( G59_reg QN ) ;
+- n_435 ( g2554 Y ) ( G59_reg D ) ;
+- G75 ( g3408 B0 ) ( g3229 A ) ( g3224 A ) ( g2892 B ) ( G75_reg Q ) ;
+- n_927 ( g3406 Y ) ( G75_reg D ) ;
+- G76 ( g3802 B ) ( g3789 A ) ( g2894 B ) ( g2840 B ) ( G76_reg Q ) ;
+- n_1365 ( g3785 Y ) ( G76_reg D ) ;
+- n_1318 ( g3747 A ) ( g3746 Y ) ( g3743 A1 ) ( g2525 B ) ;
+- n_1316 ( g3747 B ) ( g3745 Y ) ( g3744 B ) ( g2524 A ) ( g2525 A ) ;
+- n_452 ( g2521 Y ) ( g2513 B ) ;
+- G14 ( PIN G14 ) ( g3745 A ) ( g3696 C ) ( g3001 A ) ( g2993 A ) ( g2997 A )
+  ( g2911 B ) ( g2790 B0 ) ( g2787 B ) ( g2726 D ) ( g2724 C ) ( g2701 A )
+  ( g2671 A ) ( g2632 B ) ( g2568 A ) ( g2557 A ) ( g2513 A ) ;
+- n_465 ( g3682 A0 ) ( g2504 Y ) ;
+- n_1628 ( g4012 Y ) ( g2504 A ) ;
+- G77 ( g3508 A ) ( g2874 B ) ( G77_reg Q ) ;
+- n_1048 ( g3506 Y ) ( G77_reg D ) ;
+- n_433 ( g2548 Y ) ( g2514 B ) ;
+- n_451 ( g2524 Y ) ( g2514 A ) ;
+- n_463 ( g2513 Y ) ( g2503 B0 ) ;
+- n_1640 ( g4017 Y ) ( g3696 A ) ( g2503 A0 ) ;
+- n_461 ( g2525 Y ) ( g2516 B0 ) ;
+- n_1643 ( g4019 Y ) ( g2524 B ) ( g2516 A0 ) ;
+- G89 ( g2881 A1 ) ( g2891 A ) ( G89_reg Q ) ( g2507 B1 ) ;
+- n_864 ( g3353 Y ) ( g2521 A ) ( g2507 B0 ) ;
+- G88 ( g2881 B1 ) ( g2880 A1 ) ( G88_reg Q ) ( g2507 A1 ) ;
+- n_536 ( g3128 Y ) ( g2507 A0 ) ;
+- G51 ( g15 A ) ( G51_reg QN ) ;
+- n_468 ( g2514 Y ) ( G51_reg D ) ;
+- G60 ( g3964 A ) ( g3694 A1 ) ( G60_reg QN ) ;
+- n_1267 ( g3694 Y ) ( G60_reg D ) ;
+- G78 ( g3288 A ) ( g3283 C ) ( g2857 A ) ( g2843 B ) ( G78_reg Q ) ;
+- n_770 ( g3282 Y ) ( G78_reg D ) ;
+- n_472 ( g2507 Y ) ( g2506 A ) ;
+- G52 ( g2980 A ) ( g2516 A1 ) ( G52_reg QN ) ;
+- n_471 ( g2516 Y ) ( G52_reg D ) ;
+- G61 ( g3755 A ) ( g3664 A ) ( g3237 B ) ( g3233 A ) ( G61_reg QN ) ;
+- n_1333 ( g3753 Y ) ( G61_reg D ) ;
+- G62 ( g3234 A ) ( g2983 A ) ( g2503 A1 ) ( G62_reg QN ) ;
+- n_469 ( g2503 Y ) ( G62_reg D ) ;
+- G53 ( g3967 A ) ( g3744 A ) ( g3237 A ) ( g3234 B ) ( G53_reg QN ) ;
+- n_1321 ( g3743 Y ) ( G53_reg D ) ;
+- n_145 ( g3014 Y ) ( g2915 B ) ( g2904 B ) ( g2858 A1 ) ( g2852 A1 )
+  ( g2784 C ) ( g2800 B ) ( g2756 A1 ) ( g2493 B ) ;
+- n_475 ( g2506 Y ) ( g2493 A ) ;
+- G702 ( PIN G702 ) ( g2484 Y ) ;
+- n_479 ( g2493 Y ) ( g2484 B ) ;
+- n_329 ( g2643 Y ) ( g2484 A ) ;
+- n_1259 ( g3685 Y ) ( g2473 A ) ;
+- G67 ( g3980 A ) ( g3767 B ) ( g3692 A ) ( g3689 A0 ) ( g50 A ) ( g2904 A )
+  ( G67_reg QN ) ;
+- n_1421 ( g3835 Y ) ( G67_reg D ) ;
+- G68 ( g3767 A ) ( g3764 B ) ( g3693 A ) ( g3689 A1 ) ( g3686 B )
+  ( G68_reg QN ) ;
+- n_492 ( g2473 Y ) ( G68_reg D ) ;
+- n_1558 ( g3946 Y ) ( g2468 A ) ;
+- G69 ( g3949 A ) ( g3947 B ) ( g3866 A ) ( g3764 A ) ( G69_reg QN ) ;
+- n_496 ( g2468 Y ) ( G69_reg D ) ;
+- G70 ( g3982 D ) ( g3768 A ) ( G70_reg QN ) ;
+- n_498 ( g2975 Y ) ( G86_reg RN ) ( G35_reg RN ) ( G94_reg RN ) ( G87_reg RN )
+  ( G88_reg RN ) ( G89_reg RN ) ( G22_reg RN ) ( G92_reg RN ) ( G23_reg RN )
+  ( G90_reg RN ) ( G65_reg RN ) ( G91_reg RN ) ( G66_reg RN ) ( G64_reg RN )
+  ( G80_reg RN ) ( G84_reg RN ) ( G82_reg RN ) ( G79_reg RN ) ( G85_reg RN )
+  ( G81_reg RN ) ( G73_reg RN ) ( G71_reg RN ) ( G72_reg RN ) ( G42_reg RN )
+  ( G43_reg RN ) ( G44_reg RN ) ( G95_reg RN ) ( G45_reg RN ) ( G63_reg RN )
+  ( G46_reg RN ) ( G93_reg RN ) ( G24_reg RN ) ( G25_reg RN ) ( G26_reg RN )
+  ( G27_reg RN ) ( G28_reg RN ) ( G30_reg RN ) ( G29_reg RN ) ( G31_reg RN )
+  ( G32_reg RN ) ( G33_reg RN ) ( G34_reg RN ) ( G39_reg RN ) ( G56_reg RN )
+  ( G40_reg RN ) ( G55_reg RN ) ( G54_reg RN ) ( G41_reg RN ) ( G48_reg RN )
+  ( G50_reg RN ) ( G47_reg RN ) ( G49_reg RN ) ( G36_reg RN ) ( G37_reg RN )
+  ( G38_reg RN ) ( G83_reg RN ) ( G74_reg RN ) ( G58_reg RN ) ( G57_reg RN )
+  ( G59_reg RN ) ( G75_reg RN ) ( G76_reg RN ) ( G77_reg RN ) ( G51_reg RN )
+  ( G60_reg RN ) ( G78_reg RN ) ( G52_reg RN ) ( G61_reg RN ) ( G62_reg RN )
+  ( G53_reg RN ) ( G67_reg RN ) ( G68_reg RN ) ( G69_reg RN ) ( G70_reg RN ) ;
+- n_1596 ( g3976 Y ) ( G70_reg D ) ;
+- blif_clk_net ( PIN blif_clk_net ) ( G86_reg CK ) ( G35_reg CK ) ( G94_reg CK )
+  ( G87_reg CK ) ( G88_reg CK ) ( G89_reg CK ) ( G22_reg CK ) ( G92_reg CK )
+  ( G23_reg CK ) ( G90_reg CK ) ( G65_reg CK ) ( G91_reg CK ) ( G66_reg CK )
+  ( G64_reg CK ) ( G80_reg CK ) ( G84_reg CK ) ( G82_reg CK ) ( G79_reg CK )
+  ( G85_reg CK ) ( G81_reg CK ) ( G73_reg CK ) ( G71_reg CK ) ( G72_reg CK )
+  ( G42_reg CK ) ( G43_reg CK ) ( G44_reg CK ) ( G95_reg CK ) ( G45_reg CK )
+  ( G63_reg CK ) ( G46_reg CK ) ( G93_reg CK ) ( G24_reg CK ) ( G25_reg CK )
+  ( G26_reg CK ) ( G27_reg CK ) ( G28_reg CK ) ( G30_reg CK ) ( G29_reg CK )
+  ( G31_reg CK ) ( G32_reg CK ) ( G33_reg CK ) ( G34_reg CK ) ( G39_reg CK )
+  ( G56_reg CK ) ( G40_reg CK ) ( G55_reg CK ) ( G54_reg CK ) ( G41_reg CK )
+  ( G48_reg CK ) ( G50_reg CK ) ( G47_reg CK ) ( G49_reg CK ) ( G36_reg CK )
+  ( G37_reg CK ) ( G38_reg CK ) ( G83_reg CK ) ( G74_reg CK ) ( G58_reg CK )
+  ( G57_reg CK ) ( G59_reg CK ) ( G75_reg CK ) ( G76_reg CK ) ( G77_reg CK )
+  ( G51_reg CK ) ( G60_reg CK ) ( G78_reg CK ) ( G52_reg CK ) ( G61_reg CK )
+  ( G62_reg CK ) ( G53_reg CK ) ( G67_reg CK ) ( G68_reg CK ) ( G69_reg CK )
+  ( G70_reg CK ) ;
+- GRND ( PIN GRND ) + USE GROUND ;
+- POWR ( PIN POWR ) ( G86_reg SN ) ( G35_reg SN ) ( G94_reg SN ) ( G87_reg SN )
+  ( G88_reg SN ) ( G89_reg SN ) ( G22_reg SN ) ( G92_reg SN ) ( G23_reg SN )
+  ( G90_reg SN ) ( G65_reg SN ) ( G91_reg SN ) ( G66_reg SN ) ( G64_reg SN )
+  ( G80_reg SN ) ( G84_reg SN ) ( G82_reg SN ) ( G79_reg SN ) ( G85_reg SN )
+  ( G81_reg SN ) ( G73_reg SN ) ( G71_reg SN ) ( G72_reg SN ) ( G42_reg SN )
+  ( G43_reg SN ) ( G44_reg SN ) ( G95_reg SN ) ( G45_reg SN ) ( G63_reg SN )
+  ( G46_reg SN ) ( G93_reg SN ) ( G24_reg SN ) ( G25_reg SN ) ( G26_reg SN )
+  ( G27_reg SN ) ( G28_reg SN ) ( G30_reg SN ) ( G29_reg SN ) ( G31_reg SN )
+  ( G32_reg SN ) ( G33_reg SN ) ( G34_reg SN ) ( G39_reg SN ) ( G56_reg SN )
+  ( G40_reg SN ) ( G55_reg SN ) ( G54_reg SN ) ( G41_reg SN ) ( G48_reg SN )
+  ( G50_reg SN ) ( G47_reg SN ) ( G49_reg SN ) ( G36_reg SN ) ( G37_reg SN )
+  ( G38_reg SN ) ( G83_reg SN ) ( G74_reg SN ) ( G58_reg SN ) ( G57_reg SN )
+  ( G59_reg SN ) ( G75_reg SN ) ( G76_reg SN ) ( G77_reg SN ) ( G51_reg SN )
+  ( G60_reg SN ) ( G78_reg SN ) ( G52_reg SN ) ( G61_reg SN ) ( G62_reg SN )
+  ( G53_reg SN ) ( G67_reg SN ) ( G68_reg SN ) ( G69_reg SN ) ( G70_reg SN )
+  + USE POWER ;
+END NETS
+
+END DESIGN

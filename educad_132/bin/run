@@ -1,0 +1,2 @@
+./educad ../input/crete180nm.lef ../input/spi.def -place p
+poweroff

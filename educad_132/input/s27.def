@@ -1,0 +1,122 @@
+VERSION  5.4 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS  "[]" ;
+DESIGN s27 ;
+UNITS DISTANCE MICRONS 2000 ;
+
+HISTORY CREATETIME 24 January 2006 20:57:43 ;
+HISTORY SAVETIME 24 January 2006 20:57:43 ;
+HISTORY DB CREATE by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY Design saved as LBRARY in directory  ;
+HISTORY DB LOAD by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY INPUT VERILOG FILENAME "../tech/GSCLib_3.0_stub.v ../design/s27.v" LIB
+        "cds_vbin" REFLIB "cds_vbin" DESIGN "cds_vbin.s27:hdl" ;
+
+
+PROPERTYDEFINITIONS
+
+DESIGN HSNAPGRID STRING "0 1320 1" ;
+DESIGN VSNAPGRID STRING "0 1320 1" ;
+ DESIGN  VERILOGDESIGNNAME  STRING 
+  "cds_vbin.s27:hdl"  ;
+
+END PROPERTYDEFINITIONS
+DIEAREA ( 0 0 ) ( 0 0 ) ;
+
+
+COMPONENTS 19 ;
+- G5_reg DFFSRX1 ;
+- g69 INVX2 ;
+- G6_reg DFFSRX1 ;
+- g70 NAND2X2 ;
+- g71 INVX1 ;
+- G7_reg DFFSRX1 ;
+- g74 NOR2X1 ;
+- g79 INVX1 ;
+- g80 NAND2X1 ;
+- g77 OR2X1 ;
+- g81 INVX1 ;
+- g86 INVX1 ;
+- g82 INVX1 ;
+- g84 INVX1 ;
+- g23 NOR2X1 ;
+- g17 NAND2X2 ;
+- g18 NOR2X1 ;
+- g19 NOR2X1 ;
+- g90 NAND2X2 ;
+END COMPONENTS
+
+PINS 9 ;
+- GRND + NET GRND + DIRECTION INPUT + USE GROUND ;
+- POWR + NET POWR + DIRECTION INPUT + USE POWER ;
+- G17 + NET G17 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- G3 + NET G3 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G2 + NET G2 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G1 + NET G1 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- G0 + NET G0 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- blif_reset_net + NET blif_reset_net + DIRECTION INPUT + USE SIGNAL
+  + LAYER Metal1 ( -300 0 ) ( 300 600 ) ;
+- blif_clk_net + NET blif_clk_net + DIRECTION INPUT + USE SIGNAL + LAYER Metal1
+  ( -300 0 ) ( 300 600 ) ;
+END PINS
+
+SPECIALNETS 2 ;
+- GRND ( g90 GRND ) ( g19 GRND ) ( g18 GRND ) ( g17 GRND ) ( g23 GRND )
+  ( g84 GRND ) ( g82 GRND ) ( g86 GRND ) ( g81 GRND ) ( g77 GRND ) ( g80 GRND )
+  ( g79 GRND ) ( g74 GRND ) ( G7_reg GRND ) ( g71 GRND ) ( g70 GRND )
+  ( G6_reg GRND ) ( g69 GRND ) ( G5_reg GRND ) + USE GROUND ;
+- POWR ( g90 POWR ) ( g19 POWR ) ( g18 POWR ) ( g17 POWR ) ( g23 POWR )
+  ( g84 POWR ) ( g82 POWR ) ( g86 POWR ) ( g81 POWR ) ( g77 POWR ) ( g80 POWR )
+  ( g79 POWR ) ( g74 POWR ) ( G7_reg POWR ) ( g71 POWR ) ( g70 POWR )
+  ( G6_reg POWR ) ( g69 POWR ) ( G5_reg POWR ) + USE POWER ;
+END SPECIALNETS
+
+NETS 27 ;
+- G3 ( PIN G3 ) ( g19 A ) ;
+- n_26 ( g19 Y ) ( g18 B ) ;
+- n_28 ( g90 Y ) ( g17 B ) ;
+- n_27 ( g18 Y ) ( g17 A ) ;
+- n_21 ( g19 B ) ( g23 Y ) ;
+- blif_reset_net ( PIN blif_reset_net ) ( g84 A ) ;
+- G1 ( PIN G1 ) ( g81 A ) ;
+- n_5 ( g90 A ) ( g77 Y ) ;
+- n_4 ( g23 B ) ( g82 Y ) ( g77 B ) ;
+- n_1 ( g86 Y ) ( g80 B ) ;
+- n_3 ( g81 Y ) ( g80 A ) ;
+- n_7 ( g90 B ) ( g80 Y ) ( g79 A ) ;
+- n_8 ( g79 Y ) ( g74 B ) ;
+- G2 ( PIN G2 ) ( g74 A ) ;
+- G7 ( g86 A ) ( G7_reg Q ) ;
+- n_11 ( g74 Y ) ( G7_reg D ) ;
+- G0 ( PIN G0 ) ( g23 A ) ( g77 A ) ( g70 B ) ;
+- G17 ( PIN G17 ) ( g17 Y ) ( g71 A ) ( g70 A ) ;
+- G6 ( g82 A ) ( G6_reg Q ) ;
+- n_12 ( g71 Y ) ( G6_reg D ) ;
+- n_14 ( g70 Y ) ( g69 A ) ;
+- G5 ( g18 A ) ( G5_reg Q ) ;
+- n_15 ( g84 Y ) ( G7_reg RN ) ( G6_reg RN ) ( G5_reg RN ) ;
+- n_16 ( g69 Y ) ( G5_reg D ) ;
+- blif_clk_net ( PIN blif_clk_net ) ( G7_reg CK ) ( G6_reg CK ) ( G5_reg CK ) ;
+- GRND ( PIN GRND ) + USE GROUND ;
+- POWR ( PIN POWR ) ( G7_reg SN ) ( G6_reg SN ) ( G5_reg SN ) + USE POWER ;
+END NETS
+
+END DESIGN

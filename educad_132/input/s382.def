@@ -1,0 +1,488 @@
+VERSION  5.4 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS  "[]" ;
+DESIGN s382 ;
+UNITS DISTANCE MICRONS 2000 ;
+
+HISTORY CREATETIME 24 January 2006 21:09:46 ;
+HISTORY SAVETIME 24 January 2006 21:09:46 ;
+HISTORY DB CREATE by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY Design saved as LBRARY in directory  ;
+HISTORY DB LOAD by jahanian ;
+HISTORY Name: LBRARY, dir: '' ;
+HISTORY SE version: 5.4.140 MASTER, DB code version: 5.1, DB created under: 5.1
+        ;
+HISTORY Max mem: 25165824, mainsail: $TNT_INST_DIR/tools/dsm/lib/sys1620r.olb:
+        16.20 ;
+HISTORY System no. 19 --> SPARC UNIX, CPU id = 'Sun_Microsystems: 2201203178' ;
+HISTORY INPUT VERILOG FILENAME "../tech/GSCLib_3.0_stub.v ../design/s382.v" LIB
+        "cds_vbin" REFLIB "cds_vbin" DESIGN "cds_vbin.s382:hdl" ;
+
+
+PROPERTYDEFINITIONS
+
+DESIGN HSNAPGRID STRING "0 1320 1" ;
+DESIGN VSNAPGRID STRING "0 1320 1" ;
+ DESIGN  VERILOGDESIGNNAME  STRING 
+  "cds_vbin.s382:hdl"  ;
+
+END PROPERTYDEFINITIONS
+DIEAREA ( 0 0 ) ( 0 0 ) ;
+
+
+COMPONENTS 159 ;
+- C3_Q1_reg DFFSRX1 ;
+- C3_Q0_reg DFFSRX1 ;
+- C3_Q2_reg DFFSRX1 ;
+- g674 INVX2 ;
+- C3_Q3_reg DFFSRX1 ;
+- UC_16_reg DFFSRX1 ;
+- g677 INVX1 ;
+- UC_17_reg DFFSRX1 ;
+- g679 AOI21X1 ;
+- g675 NAND3X1 ;
+- UC_18_reg DFFSRX1 ;
+- g678 NAND3X1 ;
+- g681 NAND2X1 ;
+- g676 AOI21X1 ;
+- UC_19_reg DFFSRX1 ;
+- g692 OAI21X1 ;
+- g686 NAND2X1 ;
+- OLATCHVUC_5_reg DFFSRX1 ;
+- g691 NAND4X1 ;
+- g680 NAND2X1 ;
+- g695 NOR2X1 ;
+- g687 NAND4X1 ;
+- g688 NAND4X1 ;
+- g689 INVX1 ;
+- g700 NOR2X1 ;
+- g701 NAND2X1 ;
+- OLATCHVUC_6_reg DFFSRX1 ;
+- OLATCH_G1L_reg DFFSRX1 ;
+- g707 INVX1 ;
+- g690 NAND2X2 ;
+- g696 NAND2X1 ;
+- g705 INVX1 ;
+- g708 NAND2X1 ;
+- g709 NAND2X1 ;
+- g710 NAND3X1 ;
+- g711 OAI21X1 ;
+- g715 INVX1 ;
+- g702 AOI21X1 ;
+- g706 NOR2X1 ;
+- g712 OAI21X1 ;
+- g721 INVX1 ;
+- g724 AOI21X1 ;
+- OLATCH_G2L_reg DFFSRX1 ;
+- g719 CLKBUFX2 ;
+- g720 INVX1 ;
+- g722 INVX1 ;
+- g731 NAND2X1 ;
+- OLATCH_FEL_reg DFFSRX1 ;
+- g732 NAND2X1 ;
+- UC_10_reg DFFSRX1 ;
+- UC_9_reg DFFSRX1 ;
+- g733 INVX1 ;
+- UC_8_reg DFFSRX1 ;
+- g746 AOI21X1 ;
+- UC_11_reg DFFSRX1 ;
+- OLATCH_R1L_reg DFFSRX1 ;
+- g745 AOI22X1 ;
+- OLATCH_Y2L_reg DFFSRX1 ;
+- FML_reg DFFSRX1 ;
+- TESTL_reg DFFSRX1 ;
+- g758 NAND2X1 ;
+- g738 AOI21X1 ;
+- g741 INVX1 ;
+- g743 NOR2X1 ;
+- g744 NOR2X1 ;
+- g755 NOR2X1 ;
+- g757 AND2X1 ;
+- g759 OR2X1 ;
+- g754 NAND2X1 ;
+- g756 NAND2X1 ;
+- g760 AND2X1 ;
+- g761 AND2X1 ;
+- g763 OR2X1 ;
+- g766 NOR2X1 ;
+- g767 AOI22X1 ;
+- g768 AOI21X1 ;
+- g769 AOI22X1 ;
+- g770 XOR2X1 ;
+- g795 NOR2X1 ;
+- g771 NAND2X1 ;
+- g772 NAND2X1 ;
+- g773 OR2X1 ;
+- g783 INVX1 ;
+- g787 NAND2X1 ;
+- g837 INVX1 ;
+- g774 NAND3X1 ;
+- g775 XOR2X1 ;
+- g777 OR2X1 ;
+- g785 NOR2X1 ;
+- g792 AND2X1 ;
+- g831 INVX1 ;
+- g780 INVX1 ;
+- g789 INVX1 ;
+- g791 NAND2X1 ;
+- g793 AND2X1 ;
+- g794 NAND2X1 ;
+- g822 INVX1 ;
+- g840 INVX2 ;
+- g782 NOR2X1 ;
+- g790 AND2X1 ;
+- g776 XOR2X1 ;
+- g778 AND2X1 ;
+- g779 NOR2X1 ;
+- g824 INVX1 ;
+- g786 AND2X1 ;
+- g812 INVX1 ;
+- g834 INVX1 ;
+- g810 INVX1 ;
+- g826 INVX1 ;
+- g828 INVX1 ;
+- g835 INVX1 ;
+- g818 INVX1 ;
+- g817 INVX1 ;
+- g819 INVX1 ;
+- g799 INVX1 ;
+- g804 INVX1 ;
+- g802 INVX1 ;
+- g847 INVX1 ;
+- g827 INVX2 ;
+- g871 CLKBUFX1 ;
+- g872 INVX1 ;
+- g19 INVX1 ;
+- g18 NOR2X1 ;
+- g17 INVX1 ;
+- g21 INVX1 ;
+- g20 INVX1 ;
+- g888 INVX2 ;
+- g889 NAND3X1 ;
+- g23 MX2X1 ;
+- g29 INVX1 ;
+- g12 NAND3X1 ;
+- g15_dup NAND2X1 ;
+- g25 NAND3X1 ;
+- g27 NAND3X1 ;
+- g28 INVX1 ;
+- g908 NAND3X1 ;
+- g913 NAND2X1 ;
+- g914 NAND3X1 ;
+- g926 NAND2X1 ;
+- g16_dup NAND2X1 ;
+- g927 NOR2X1 ;
+- g928 AOI21X1 ;
+- g24 NAND2X1 ;
+- g929 NOR2X1 ;
+- g930 NAND2X1 ;
+- g33 AND2X1 ;
+- g34 NAND4X1 ;
+- g35 OAI21X1 ;
+- g39 NAND2X1 ;
+- g37 NOR2X1 ;
+- g36 NAND2X1 ;
+- g38 NAND2X1 ;
+- g932 NAND2X2 ;
+- g15 NAND2X2 ;
+- g16 NAND2X1 ;
+- g933 INVX2 ;
+- g934 AND2X1 ;
+- g937 INVX1 ;
+- g940 INVX1 ;
+END COMPONENTS
+
+PINS 13 ;
+- GRND + NET GRND + DIRECTION INPUT + USE GROUND ;
+- POWR + NET POWR + DIRECTION INPUT + USE POWER ;
+- YLW1 + NET YLW1 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- RED2 + NET RED2 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- YLW2 + NET YLW2 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- RED1 + NET RED1 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- GRN2 + NET GRN2 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- GRN1 + NET GRN1 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) (
+  300 600 ) ;
+- CLR + NET CLR + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- TEST + NET TEST + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300
+  600 ) ;
+- FM + NET FM + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600
+  ) ;
+- blif_reset_net + NET blif_reset_net + DIRECTION INPUT + USE SIGNAL
+  + LAYER Metal1 ( -300 0 ) ( 300 600 ) ;
+- blif_clk_net + NET blif_clk_net + DIRECTION INPUT + USE SIGNAL + LAYER Metal1
+  ( -300 0 ) ( 300 600 ) ;
+END PINS
+
+SPECIALNETS 2 ;
+- GRND ( g940 GRND ) ( g937 GRND ) ( g934 GRND ) ( g933 GRND ) ( g16 GRND )
+  ( g15 GRND ) ( g932 GRND ) ( g38 GRND ) ( g36 GRND ) ( g37 GRND ) ( g39 GRND )
+  ( g35 GRND ) ( g34 GRND ) ( g33 GRND ) ( g930 GRND ) ( g929 GRND )
+  ( g24 GRND ) ( g928 GRND ) ( g927 GRND ) ( g16_dup GRND ) ( g926 GRND )
+  ( g914 GRND ) ( g913 GRND ) ( g908 GRND ) ( g28 GRND ) ( g27 GRND )
+  ( g25 GRND ) ( g15_dup GRND ) ( g12 GRND ) ( g29 GRND ) ( g23 GRND )
+  ( g889 GRND ) ( g888 GRND ) ( g20 GRND ) ( g21 GRND ) ( g17 GRND )
+  ( g18 GRND ) ( g19 GRND ) ( g872 GRND ) ( g871 GRND ) ( g827 GRND )
+  ( g847 GRND ) ( g802 GRND ) ( g804 GRND ) ( g799 GRND ) ( g819 GRND )
+  ( g817 GRND ) ( g818 GRND ) ( g835 GRND ) ( g828 GRND ) ( g826 GRND )
+  ( g810 GRND ) ( g834 GRND ) ( g812 GRND ) ( g786 GRND ) ( g824 GRND )
+  ( g779 GRND ) ( g778 GRND ) ( g776 GRND ) ( g790 GRND ) ( g782 GRND )
+  ( g840 GRND ) ( g822 GRND ) ( g794 GRND ) ( g793 GRND ) ( g791 GRND )
+  ( g789 GRND ) ( g780 GRND ) ( g831 GRND ) ( g792 GRND ) ( g785 GRND )
+  ( g777 GRND ) ( g775 GRND ) ( g774 GRND ) ( g837 GRND ) ( g787 GRND )
+  ( g783 GRND ) ( g773 GRND ) ( g772 GRND ) ( g771 GRND ) ( g795 GRND )
+  ( g770 GRND ) ( g769 GRND ) ( g768 GRND ) ( g767 GRND ) ( g766 GRND )
+  ( g763 GRND ) ( g761 GRND ) ( g760 GRND ) ( g756 GRND ) ( g754 GRND )
+  ( g759 GRND ) ( g757 GRND ) ( g755 GRND ) ( g744 GRND ) ( g743 GRND )
+  ( g741 GRND ) ( g738 GRND ) ( g758 GRND ) ( TESTL_reg GRND ) ( FML_reg GRND )
+  ( OLATCH_Y2L_reg GRND ) ( g745 GRND ) ( OLATCH_R1L_reg GRND )
+  ( UC_11_reg GRND ) ( g746 GRND ) ( UC_8_reg GRND ) ( g733 GRND )
+  ( UC_9_reg GRND ) ( UC_10_reg GRND ) ( g732 GRND ) ( OLATCH_FEL_reg GRND )
+  ( g731 GRND ) ( g722 GRND ) ( g720 GRND ) ( g719 GRND )
+  ( OLATCH_G2L_reg GRND ) ( g724 GRND ) ( g721 GRND ) ( g712 GRND )
+  ( g706 GRND ) ( g702 GRND ) ( g715 GRND ) ( g711 GRND ) ( g710 GRND )
+  ( g709 GRND ) ( g708 GRND ) ( g705 GRND ) ( g696 GRND ) ( g690 GRND )
+  ( g707 GRND ) ( OLATCH_G1L_reg GRND ) ( OLATCHVUC_6_reg GRND ) ( g701 GRND )
+  ( g700 GRND ) ( g689 GRND ) ( g688 GRND ) ( g687 GRND ) ( g695 GRND )
+  ( g680 GRND ) ( g691 GRND ) ( OLATCHVUC_5_reg GRND ) ( g686 GRND )
+  ( g692 GRND ) ( UC_19_reg GRND ) ( g676 GRND ) ( g681 GRND ) ( g678 GRND )
+  ( UC_18_reg GRND ) ( g675 GRND ) ( g679 GRND ) ( UC_17_reg GRND )
+  ( g677 GRND ) ( UC_16_reg GRND ) ( C3_Q3_reg GRND ) ( g674 GRND )
+  ( C3_Q2_reg GRND ) ( C3_Q0_reg GRND ) ( C3_Q1_reg GRND ) + USE GROUND ;
+- POWR ( g940 POWR ) ( g937 POWR ) ( g934 POWR ) ( g933 POWR ) ( g16 POWR )
+  ( g15 POWR ) ( g932 POWR ) ( g38 POWR ) ( g36 POWR ) ( g37 POWR ) ( g39 POWR )
+  ( g35 POWR ) ( g34 POWR ) ( g33 POWR ) ( g930 POWR ) ( g929 POWR )
+  ( g24 POWR ) ( g928 POWR ) ( g927 POWR ) ( g16_dup POWR ) ( g926 POWR )
+  ( g914 POWR ) ( g913 POWR ) ( g908 POWR ) ( g28 POWR ) ( g27 POWR )
+  ( g25 POWR ) ( g15_dup POWR ) ( g12 POWR ) ( g29 POWR ) ( g23 POWR )
+  ( g889 POWR ) ( g888 POWR ) ( g20 POWR ) ( g21 POWR ) ( g17 POWR )
+  ( g18 POWR ) ( g19 POWR ) ( g872 POWR ) ( g871 POWR ) ( g827 POWR )
+  ( g847 POWR ) ( g802 POWR ) ( g804 POWR ) ( g799 POWR ) ( g819 POWR )
+  ( g817 POWR ) ( g818 POWR ) ( g835 POWR ) ( g828 POWR ) ( g826 POWR )
+  ( g810 POWR ) ( g834 POWR ) ( g812 POWR ) ( g786 POWR ) ( g824 POWR )
+  ( g779 POWR ) ( g778 POWR ) ( g776 POWR ) ( g790 POWR ) ( g782 POWR )
+  ( g840 POWR ) ( g822 POWR ) ( g794 POWR ) ( g793 POWR ) ( g791 POWR )
+  ( g789 POWR ) ( g780 POWR ) ( g831 POWR ) ( g792 POWR ) ( g785 POWR )
+  ( g777 POWR ) ( g775 POWR ) ( g774 POWR ) ( g837 POWR ) ( g787 POWR )
+  ( g783 POWR ) ( g773 POWR ) ( g772 POWR ) ( g771 POWR ) ( g795 POWR )
+  ( g770 POWR ) ( g769 POWR ) ( g768 POWR ) ( g767 POWR ) ( g766 POWR )
+  ( g763 POWR ) ( g761 POWR ) ( g760 POWR ) ( g756 POWR ) ( g754 POWR )
+  ( g759 POWR ) ( g757 POWR ) ( g755 POWR ) ( g744 POWR ) ( g743 POWR )
+  ( g741 POWR ) ( g738 POWR ) ( g758 POWR ) ( TESTL_reg POWR ) ( FML_reg POWR )
+  ( OLATCH_Y2L_reg POWR ) ( g745 POWR ) ( OLATCH_R1L_reg POWR )
+  ( UC_11_reg POWR ) ( g746 POWR ) ( UC_8_reg POWR ) ( g733 POWR )
+  ( UC_9_reg POWR ) ( UC_10_reg POWR ) ( g732 POWR ) ( OLATCH_FEL_reg POWR )
+  ( g731 POWR ) ( g722 POWR ) ( g720 POWR ) ( g719 POWR )
+  ( OLATCH_G2L_reg POWR ) ( g724 POWR ) ( g721 POWR ) ( g712 POWR )
+  ( g706 POWR ) ( g702 POWR ) ( g715 POWR ) ( g711 POWR ) ( g710 POWR )
+  ( g709 POWR ) ( g708 POWR ) ( g705 POWR ) ( g696 POWR ) ( g690 POWR )
+  ( g707 POWR ) ( OLATCH_G1L_reg POWR ) ( OLATCHVUC_6_reg POWR ) ( g701 POWR )
+  ( g700 POWR ) ( g689 POWR ) ( g688 POWR ) ( g687 POWR ) ( g695 POWR )
+  ( g680 POWR ) ( g691 POWR ) ( OLATCHVUC_5_reg POWR ) ( g686 POWR )
+  ( g692 POWR ) ( UC_19_reg POWR ) ( g676 POWR ) ( g681 POWR ) ( g678 POWR )
+  ( UC_18_reg POWR ) ( g675 POWR ) ( g679 POWR ) ( UC_17_reg POWR )
+  ( g677 POWR ) ( UC_16_reg POWR ) ( C3_Q3_reg POWR ) ( g674 POWR )
+  ( C3_Q2_reg POWR ) ( C3_Q0_reg POWR ) ( C3_Q1_reg POWR ) + USE POWER ;
+END SPECIALNETS
+
+NETS 166 ;
+- n_271 ( g16 Y ) ( g15 A ) ;
+- n_274 ( g934 Y ) ( g932 B ) ;
+- n_273 ( g15 Y ) ( g932 A ) ;
+- n_259 ( g36 A ) ( g39 Y ) ( g35 A0 ) ;
+- n_262 ( g35 Y ) ( g33 B ) ;
+- n_258 ( g34 Y ) ( g33 A ) ;
+- n_254 ( g929 Y ) ( g928 B0 ) ;
+- n_256 ( g930 Y ) ( g927 B ) ;
+- n_255 ( g928 Y ) ( g927 A ) ;
+- n_251 ( g16 A ) ( g926 Y ) ;
+- n_237 ( g934 A ) ( g914 Y ) ;
+- n_281 ( g940 Y ) ( g937 A ) ( g914 C ) ;
+- n_252 ( g16_dup Y ) ( g913 A ) ;
+- n_228 ( g38 B ) ( g39 B ) ( g908 Y ) ;
+- n_225 ( g27 Y ) ( g25 A ) ;
+- n_272 ( g933 Y ) ( g15 B ) ( g15_dup B ) ;
+- n_278 ( g937 Y ) ( g12 B ) ;
+- n_197 ( g914 A ) ( g29 Y ) ( g23 A ) ;
+- n_199 ( g23 Y ) ( g889 A ) ;
+- n_200 ( g889 Y ) ( g888 A ) ;
+- n_175 ( g16_dup B ) ( g926 B ) ( g17 A ) ( g18 Y ) ;
+- n_174 ( g16_dup A ) ( g926 A ) ( g19 Y ) ;
+- n_179 ( g21 Y ) ( g872 A ) ;
+- n_235 ( g913 Y ) ( g15_dup A ) ( g871 A ) ;
+- n_0 ( g914 B ) ( g799 Y ) ;
+- blif_reset_net ( PIN blif_reset_net ) ( g828 A ) ;
+- n_180 ( g20 Y ) ( g810 A ) ;
+- n_23 ( g27 C ) ( g847 Y ) ( g779 A ) ;
+- n_3 ( g818 Y ) ( g778 A ) ;
+- TEST ( PIN TEST ) ( g776 A ) ;
+- n_37 ( g27 B ) ( g782 Y ) ( g780 A ) ;
+- n_16 ( g34 C ) ( g835 Y ) ( g834 A ) ( g786 B ) ( g790 B ) ( g831 A )
+  ( g785 A ) ;
+- n_12 ( g817 Y ) ( g812 A ) ( g777 A ) ;
+- FM ( PIN FM ) ( g775 A ) ;
+- n_168 ( g872 Y ) ( g791 A ) ( g774 A ) ;
+- n_32 ( g804 Y ) ( g794 B ) ( g772 B ) ;
+- n_53 ( g810 Y ) ( g791 B ) ( g774 B ) ( g795 B ) ;
+- n_60 ( g791 Y ) ( g771 B ) ( g770 B ) ;
+- n_58 ( g793 Y ) ( g772 A ) ( g769 B1 ) ;
+- n_64 ( g908 B ) ( g779 Y ) ( g769 A1 ) ;
+- n_62 ( g27 A ) ( g778 Y ) ( g769 A0 ) ;
+- n_33 ( g794 Y ) ( g768 B0 ) ;
+- n_38 ( g780 Y ) ( g773 A ) ( g768 A0 ) ;
+- n_71 ( g34 B ) ( g792 Y ) ( g767 B0 ) ;
+- n_49 ( g785 Y ) ( g767 A0 ) ;
+- n_55 ( g787 Y ) ( g766 B ) ;
+- n_59 ( g772 Y ) ( g766 A ) ;
+- n_57 ( g773 Y ) ( g763 A ) ;
+- n_24 ( g776 Y ) ( g761 A ) ;
+- n_52 ( g775 Y ) ( g760 A ) ;
+- n_178 ( g17 Y ) ( g756 B ) ;
+- n_70 ( g768 Y ) ( g759 A ) ;
+- n_166 ( g871 Y ) ( g756 A ) ( g754 A ) ( g757 B ) ;
+- n_67 ( g795 Y ) ( g757 A ) ;
+- n_69 ( g769 Y ) ( g755 B ) ;
+- n_46 ( g789 Y ) ( g755 A ) ;
+- n_61 ( g771 Y ) ( g744 B ) ;
+- n_78 ( g756 Y ) ( g744 A ) ;
+- n_68 ( g770 Y ) ( g743 B ) ;
+- n_227 ( g38 A ) ( g39 A ) ( g25 Y ) ( g741 A ) ;
+- n_86 ( g754 Y ) ( g743 A ) ( g738 B0 ) ;
+- n_2 ( g819 Y ) ( g738 A1 ) ;
+- n_54 ( g774 Y ) ( g738 A0 ) ;
+- n_56 ( g783 Y ) ( g758 B ) ;
+- n_72 ( g767 Y ) ( g758 A ) ;
+- TESTL ( g933 A ) ( g776 B ) ( TESTL_reg Q ) ;
+- n_75 ( g761 Y ) ( TESTL_reg D ) ;
+- n_77 ( g760 Y ) ( FML_reg D ) ;
+- YLW2 ( PIN YLW2 ) ( OLATCH_Y2L_reg Q ) ;
+- n_73 ( g766 Y ) ( OLATCH_Y2L_reg D ) ;
+- n_74 ( g763 Y ) ( g745 A0 ) ;
+- RED1 ( PIN RED1 ) ( OLATCH_R1L_reg Q ) ;
+- n_82 ( g759 Y ) ( OLATCH_R1L_reg D ) ;
+- UC_11 ( g20 A ) ( g18 B ) ( UC_11_reg Q ) ;
+- n_83 ( g757 Y ) ( UC_11_reg D ) ;
+- n_92 ( g758 Y ) ( g746 B0 ) ;
+- UC_8 ( g16 B ) ( g913 B ) ( g819 A ) ( UC_8_reg Q ) ;
+- n_90 ( g738 Y ) ( UC_8_reg D ) ;
+- n_99 ( g34 A ) ( g733 Y ) ;
+- UC_9 ( g19 A ) ( g774 C ) ( g770 A ) ( UC_9_reg Q ) ;
+- n_87 ( g743 Y ) ( UC_9_reg D ) ;
+- UC_10 ( g21 A ) ( g18 A ) ( UC_10_reg Q ) ;
+- n_85 ( g744 Y ) ( UC_10_reg D ) ;
+- n_96 ( g745 Y ) ( g732 A ) ;
+- OLATCH_FEL ( g25 B ) ( g804 A ) ( g745 A1 ) ( g746 A0 ) ( OLATCH_FEL_reg Q ) ;
+- n_264 ( g38 Y ) ( g733 A ) ( OLATCH_FEL_reg D ) ;
+- n_253 ( g929 A ) ( g24 Y ) ( g928 A1 ) ( g731 A ) ;
+- GRN2 ( PIN GRN2 ) ( OLATCH_G2L_reg Q ) ;
+- n_98 ( g746 Y ) ( OLATCH_G2L_reg D ) ;
+- n_101 ( g732 Y ) ( g724 B0 ) ;
+- FML ( g847 A ) ( g775 B ) ( g763 B ) ( FML_reg Q ) ( g745 B0 ) ( g724 A1 ) ;
+- n_35 ( g908 A ) ( g790 Y ) ( g789 A ) ( g724 A0 ) ;
+- n_112 ( g930 A ) ( g889 B ) ( g721 Y ) ;
+- n_261 ( g36 Y ) ( g35 B0 ) ( g712 B0 ) ;
+- n_89 ( g741 Y ) ( g712 A1 ) ;
+- n_84 ( g755 Y ) ( g712 A0 ) ;
+- n_275 ( g932 Y ) ( g722 A ) ( g720 A ) ( g719 A ) ( g706 A ) ( g702 B0 ) ;
+- n_17 ( g786 Y ) ( g702 A1 ) ;
+- n_26 ( g827 Y ) ( g826 A ) ( g790 A ) ( g782 A ) ( g792 A ) ( g702 A0 ) ;
+- n_222 ( g12 Y ) ( g23 S0 ) ( g715 A ) ;
+- n_221 ( g24 A ) ( g15_dup Y ) ( g12 C ) ( g711 A0 ) ;
+- n_41 ( g824 Y ) ( g822 A ) ( g706 B ) ( g709 B ) ;
+- n_18 ( g826 Y ) ( g824 A ) ( g767 A1 ) ( g708 B ) ;
+- n_107 ( g720 Y ) ( g708 A ) ;
+- n_124 ( g706 Y ) ( g705 A ) ( g696 A ) ;
+- n_108 ( g34 D ) ( g812 Y ) ( g769 B0 ) ( g768 A1 ) ( g767 B1 ) ( g690 B ) ;
+- n_117 ( g702 Y ) ( g690 A ) ;
+- GRN1 ( PIN GRN1 ) ( OLATCH_G1L_reg Q ) ;
+- n_111 ( g724 Y ) ( OLATCH_G1L_reg D ) ;
+- YLW1 ( PIN YLW1 ) ( OLATCHVUC_6_reg QN ) ;
+- n_115 ( g712 Y ) ( OLATCHVUC_6_reg D ) ;
+- n_25 ( g834 Y ) ( g696 B ) ( g701 B ) ;
+- n_132 ( g708 Y ) ( g707 A ) ( g701 A ) ;
+- n_106 ( g731 Y ) ( g700 B ) ;
+- n_119 ( g711 Y ) ( g700 A ) ;
+- n_260 ( g37 Y ) ( g35 A1 ) ( g783 A ) ( g732 B ) ( g688 A ) ;
+- n_138 ( g722 Y ) ( g721 A ) ( g688 D ) ( g687 D ) ;
+- n_139 ( g822 Y ) ( g787 A ) ( g688 C ) ( g687 C ) ;
+- n_50 ( g37 B ) ( g802 Y ) ( g786 A ) ( g794 A ) ( g793 A ) ( g687 A ) ;
+- CLR ( PIN CLR ) ( g37 A ) ( g28 A ) ( g779 B ) ( g840 A ) ( g785 B )
+  ( g777 B ) ( g837 A ) ( g795 A ) ( g759 B ) ( g695 B ) ;
+- n_133 ( g707 Y ) ( g695 A ) ;
+- n_134 ( g930 B ) ( g889 C ) ( g840 Y ) ( g754 B ) ( g731 B ) ( g680 B ) ;
+- n_34 ( g28 Y ) ( g25 C ) ( g793 B ) ( g792 B ) ( g771 A ) ( g746 A1 )
+  ( g710 C ) ( g691 C ) ;
+- n_118 ( g715 Y ) ( g691 B ) ;
+- n_122 ( g719 Y ) ( g711 B0 ) ( g710 A ) ( g709 A ) ( g691 A ) ;
+- RED2 ( PIN RED2 ) ( OLATCHVUC_5_reg QN ) ;
+- n_263 ( g33 Y ) ( OLATCHVUC_5_reg D ) ;
+- n_130 ( g696 Y ) ( g686 A ) ;
+- n_135 ( g701 Y ) ( g692 B0 ) ;
+- n_141 ( g831 Y ) ( g787 B ) ( g688 B ) ( g687 B ) ( g692 A1 ) ;
+- n_125 ( g705 Y ) ( g692 A0 ) ;
+- UC_19 ( g940 A ) ( g24 B ) ( g711 A1 ) ( UC_19_reg Q ) ;
+- n_136 ( g700 Y ) ( UC_19_reg D ) ;
+- n_137 ( g689 Y ) ( g676 B0 ) ;
+- n_270 ( g777 Y ) ( g676 A1 ) ;
+- n_269 ( g688 Y ) ( g676 A0 ) ;
+- n_147 ( g691 Y ) ( g681 B ) ;
+- n_121 ( g710 Y ) ( g681 A ) ;
+- n_123 ( g709 Y ) ( g678 B ) ;
+- n_145 ( g695 Y ) ( g678 A ) ;
+- UC_18 ( g929 B ) ( g928 A0 ) ( g12 A ) ( g799 A ) ( UC_18_reg Q ) ;
+- n_257 ( g927 Y ) ( UC_18_reg D ) ;
+- n_76 ( g837 Y ) ( g761 B ) ( g760 B ) ( g675 C ) ;
+- n_153 ( g690 Y ) ( g689 A ) ( g680 A ) ( g678 C ) ( g675 B ) ;
+- n_150 ( g692 Y ) ( g675 A ) ;
+- n_146 ( g680 Y ) ( g679 B0 ) ;
+- n_142 ( g687 Y ) ( g679 A1 ) ;
+- n_148 ( g686 Y ) ( g679 A0 ) ;
+- UC_17 ( g36 B ) ( g29 A ) ( g23 B ) ( g691 D ) ( UC_17_reg Q ) ;
+- n_201 ( g888 Y ) ( UC_17_reg D ) ;
+- n_154 ( g678 Y ) ( g677 A ) ;
+- UC_16 ( g934 B ) ( g710 B ) ( UC_16_reg Q ) ;
+- n_152 ( g681 Y ) ( UC_16_reg D ) ;
+- C3_Q3 ( g817 A ) ( g818 A ) ( g773 B ) ( g745 B1 ) ( C3_Q3_reg Q ) ;
+- n_151 ( g676 Y ) ( C3_Q3_reg D ) ;
+- n_155 ( g675 Y ) ( g674 A ) ;
+- C3_Q2 ( g908 C ) ( g802 A ) ( g778 B ) ( g686 B ) ( C3_Q2_reg Q ) ;
+- n_156 ( g679 Y ) ( C3_Q2_reg D ) ;
+- C3_Q0 ( g827 A ) ( C3_Q0_reg Q ) ;
+- n_157 ( g677 Y ) ( C3_Q0_reg D ) ;
+- C3_Q1 ( g835 A ) ( g782 B ) ( C3_Q1_reg Q ) ;
+- n_159 ( g828 Y ) ( TESTL_reg RN ) ( FML_reg RN ) ( OLATCH_Y2L_reg RN )
+  ( OLATCH_R1L_reg RN ) ( UC_11_reg RN ) ( UC_8_reg RN ) ( UC_9_reg RN )
+  ( UC_10_reg RN ) ( OLATCH_FEL_reg RN ) ( OLATCH_G2L_reg RN )
+  ( OLATCH_G1L_reg RN ) ( OLATCHVUC_6_reg RN ) ( OLATCHVUC_5_reg RN )
+  ( UC_19_reg RN ) ( UC_18_reg RN ) ( UC_17_reg RN ) ( UC_16_reg RN )
+  ( C3_Q3_reg RN ) ( C3_Q2_reg RN ) ( C3_Q0_reg RN ) ( C3_Q1_reg RN ) ;
+- n_158 ( g674 Y ) ( C3_Q1_reg D ) ;
+- blif_clk_net ( PIN blif_clk_net ) ( TESTL_reg CK ) ( FML_reg CK )
+  ( OLATCH_Y2L_reg CK ) ( OLATCH_R1L_reg CK ) ( UC_11_reg CK ) ( UC_8_reg CK )
+  ( UC_9_reg CK ) ( UC_10_reg CK ) ( OLATCH_FEL_reg CK ) ( OLATCH_G2L_reg CK )
+  ( OLATCH_G1L_reg CK ) ( OLATCHVUC_6_reg CK ) ( OLATCHVUC_5_reg CK )
+  ( UC_19_reg CK ) ( UC_18_reg CK ) ( UC_17_reg CK ) ( UC_16_reg CK )
+  ( C3_Q3_reg CK ) ( C3_Q2_reg CK ) ( C3_Q0_reg CK ) ( C3_Q1_reg CK ) ;
+- GRND ( PIN GRND ) + USE GROUND ;
+- POWR ( PIN POWR ) ( TESTL_reg SN ) ( FML_reg SN ) ( OLATCH_Y2L_reg SN )
+  ( OLATCH_R1L_reg SN ) ( UC_11_reg SN ) ( UC_8_reg SN ) ( UC_9_reg SN )
+  ( UC_10_reg SN ) ( OLATCH_FEL_reg SN ) ( OLATCH_G2L_reg SN )
+  ( OLATCH_G1L_reg SN ) ( OLATCHVUC_6_reg SN ) ( OLATCHVUC_5_reg SN )
+  ( UC_19_reg SN ) ( UC_18_reg SN ) ( UC_17_reg SN ) ( UC_16_reg SN )
+  ( C3_Q3_reg SN ) ( C3_Q2_reg SN ) ( C3_Q0_reg SN ) ( C3_Q1_reg SN )
+  + USE POWER ;
+END NETS
+
+END DESIGN

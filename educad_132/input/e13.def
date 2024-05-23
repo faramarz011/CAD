@@ -1,0 +1,81 @@
+VERSION  5.4 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS  "[]" ;
+DESIGN s386 ;
+UNITS DISTANCE MICRONS 2000 ;
+
+HISTORY CREATETIME 24 August 2009 21:12:21 ;
+HISTORY DB CREATE by jahanian ;
+
+PROPERTYDEFINITIONS
+
+DESIGN HSNAPGRID STRING "0 1320 1" ;
+
+END PROPERTYDEFINITIONS
+DIEAREA ( 0 0 ) ( 0 0 ) ;
+
+
+COMPONENTS 13 ;
+- u01 NAND2X1 + PLACED ( 100 200 ) N ;
+- u02 NAND2X1 + PLACED ( 110 210 ) N ;
+- u03 NAND2X1 + PLACED ( 120 220 ) N ;
+- u05 NAND2X1 + PLACED ( 130 230 ) N ;
+- u09 NAND2X1 + PLACED ( 140 240 ) N ;
+- u11 NAND2X1 + PLACED ( 150 250 ) N ;
+- u12 NAND2X1 + PLACED ( 160 260 ) N ;
+- u06 NAND3X1 + PLACED ( 170 270 ) N ;
+- u04 INVX1 + PLACED ( 180 280 ) N ;
+- u08 INVX1 + PLACED ( 190 290 ) N ;
+- u10 INVX1 + PLACED ( 200 300 ) N ;
+- u07 DFFX1 + PLACED ( 210 310 ) N ;
+- u13 DFFX1 + PLACED ( 220 320 ) N ;
+END COMPONENTS
+
+PINS 12 ;
+- GRND + NET GRND + DIRECTION INPUT + USE GROUND ;
+- POWR + NET POWR + DIRECTION INPUT + USE POWER ;
+- clk + NET clk + DIRECTION INPUT + USE CLOCK + LAYER Metal1 ( -300 0  ) ( 300 600 ) ;
+- i1 + NET i1 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0  ) ( 300 600 ) ;
+- i2 + NET i2 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0  ) ( 300 600 ) ;
+- i3 + NET i3 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0  ) ( 300 600 ) ;
+- i4 + NET i4 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300 0  ) ( 300 600 ) ;
+- i5 + NET i5 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300  0 ) ( 300 600 ) ;
+- i6 + NET i6 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300  0 ) ( 300 600 ) ;
+- i7 + NET i7 + DIRECTION INPUT + USE SIGNAL + LAYER Metal1 ( -300  0 ) ( 300 600 ) ;
+- o1 + NET o1 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600  ) ;
+- o2 + NET o2 + DIRECTION OUTPUT + USE SIGNAL + LAYER Metal1 ( -300 0 ) ( 300 600  ) ;
+END PINS
+
+SPECIALNETS 2 ;
+- GRND ( u01 GRND ) ( u02 GRND ) ( u03 GRND ) ( u04 GRND ) ( u05 GRND ) ( u06 GRND ) ( u07 GRND ) ( u08 GRND ) ( u09 GRND ) ( u10 GRND ) ( u11 GRND ) ( u12 GRND ) ( u13 GRND ) + USE GROUND ;
+- POWR ( u01 POWR ) ( u02 POWR ) ( u03 POWR ) ( u04 POWR ) ( u05 POWR ) ( u06 POWR ) ( u07 POWR ) ( u08 POWR ) ( u09 POWR ) ( u10 POWR ) ( u11 POWR ) ( u12 POWR ) ( u13 POWR ) + USE POWER ;
+END SPECIALNETS
+
+NETS 22 ;
+- i1 ( PIN i1 ) ( u01 A ) ;
+- i2 ( PIN i2 ) ( u01 B ) ;
+- i3 ( PIN i3 ) ( u02 A ) ;
+- i4 ( PIN i4 ) ( u02 B ) ;
+- i5 ( PIN i5 ) ( u03 A ) ;
+- i6 ( PIN i6 ) ( u03 B ) ;
+- i7 ( PIN i7 ) ( u06 C ) ;
+- n1 ( u01 Y ) ( u04 A ) ;
+- n2 ( u02 Y ) ( u05 B ) ( u06 A ) ( u09 B ) ( u11 B ) ;
+- n3 ( u03 Y ) ( u06 B ) ;
+- n4 ( u05 Y ) ( u07 D ) ;
+- n5 ( u07 Q ) ( u08 A ) ;
+- n6 ( u08 Y ) ( u09 A ) ;
+- n7 ( u09 Y ) ( u11 A ) ;
+- n8 ( u11 Y ) ( u12 A ) ;
+- n9 ( u04 Y ) ( u05 A ) ;
+- n10 ( u06 Y ) ( u13 D ) ;
+- n11 ( u13 Q ) ( u10 A ) ( u12 B ) ;
+- o1 ( u12 Y ) ( PIN o1 ) ;
+- o2 ( u10 Y ) ( PIN o2 ) ;
+- clk ( PIN clk ) ( u07 CK ) ( u13 CK ) ;
+- GRND ( PIN GRND ) + USE GROUND ;
+- POWR ( PIN POWR ) + USE POWER ;
+END NETS
+
+END DESIGN

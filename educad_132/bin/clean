@@ -1,0 +1,24 @@
+rm ../part/*.cpp~
+rm ../part/*.h~
+
+rm ../asta/*.cpp~
+rm ../asta/*.h~
+
+rm ../db/*.h~
+rm ../def/*.h~
+rm ../lef/*.h~
+
+rm ../gr/*.cpp~
+rm ../gr/*.h~
+
+rm ../gui/*.cpp~
+rm ../gui/*.h~
+
+
+rm ../main/*.cpp~
+rm ../main/*.h~
+
+rm ../placer/*.cpp~
+rm ../placer/*.h~
+
+rm *.o *.txt install~ clean~ educad t.t
